@@ -8,7 +8,6 @@ import android.content.Intent
 
 import android.net.ConnectivityManager
 import android.net.Uri
-import android.os.AsyncTask
 import android.os.Build
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -21,26 +20,16 @@ import android.webkit.WebView
 import android.webkit.WebViewClient
 import android.widget.*
 
-import com.google.api.client.http.javanet.NetHttpTransport
-import com.google.api.client.json.jackson2.JacksonFactory
-import com.google.api.services.customsearch.Customsearch
-import com.google.api.services.customsearch.CustomsearchRequestInitializer
 import com.google.api.services.customsearch.model.Search
 
+
 import kotlinx.android.synthetic.main.activity_main.*
-import java.io.IOException
-import java.net.HttpURLConnection
-import java.net.MalformedURLException
-import java.net.URL
-import java.util.concurrent.ExecutionException
+
 import java.util.concurrent.TimeUnit
 import java.util.concurrent.TimeoutException
 
 class MainActivity : AppCompatActivity() {
-    val myCX = "003159383193150926956:c6m9ah2oy8e" //Your search engine
-    val myKey = "AIzaSyCL_iY2ALQxC4w6Qfld253adeI_GGl_bmw"
-    val myApp = "APP4WEB"
-    lateinit var cs : Customsearch
+
     internal var httpEdit: String = ""
    // private var pingHttpTask: PingHttpTask? = null
 
@@ -52,10 +41,7 @@ class MainActivity : AppCompatActivity() {
         if (isConnected())Toast.makeText(applicationContext, "Инет Есть", Toast.LENGTH_SHORT).show()
                      else Toast.makeText(applicationContext, "НЕТ Инет ", Toast.LENGTH_SHORT).show()
 
-        cs = Customsearch.Builder(NetHttpTransport(), JacksonFactory.getDefaultInstance(), null)
-            .setApplicationName(myApp)
-            .setGoogleClientRequestInitializer(CustomsearchRequestInitializer(myKey))
-            .build()
+
     }
     fun onClick(view: View) {
         var answerURL:String? = null
@@ -105,6 +91,7 @@ class MainActivity : AppCompatActivity() {
         val poisk = Poisk().execute (searchQuery)
         try {
         val result = poisk.get(15, TimeUnit.SECONDS)
+            if (result!=null) {val items = result!!.items}
             val LINK = LV(result)
             } catch (e: TimeoutException) {
             poisk.cancel(true)
@@ -115,112 +102,6 @@ class MainActivity : AppCompatActivity() {
 
      //   if (LINK != null) httpEdit = LINK
     }
-    fun isConnected(): Boolean {
-        val ni = (getSystemService(Context.CONNECTIVITY_SERVICE) as ConnectivityManager)
-            .activeNetworkInfo
-        return ni != null && ni.isConnected
-    }
-    fun listTryHttp(url: String): java.util.ArrayList<String> {
-        var url = url
-
-        val Zapros = java.util.ArrayList<String>()                      // 2 Лист сайтов
-
-        // Если точно не САЙТ - в ПОИСК (false)
-        if (!url.contains(".")) return Zapros
-        url = url.trim { it <= ' ' }.toLowerCase()
-        if (url.startsWith(".")) return Zapros
-        if (url.endsWith(".")) return Zapros
-        if (url.contains(" ")) return Zapros
-
-        // Если это все таки URL - проверка на правильность и http <--> https
-        try {
-            URL(url)
-            // Это наконец есть ли указанный "точно" сайт в Сети
-            Zapros.add(url)  // Простая прямая проверка на то что ввели в url
-            if (url.startsWith("http:")) Zapros.add(url.replace("http://", "https://"))
-            if (url.startsWith("https:")) Zapros.add(url.replace("https://", "http://"))
-        } catch (e: MalformedURLException) {
-            Toast.makeText(applicationContext, "Запрос не является URL: $url", Toast.LENGTH_SHORT).show()
-        }
-
-        // Если сайт без HTTH то приклеть и проверить Сайт или в Поиск
-        if (!url.startsWith("http")) Zapros.add("https://$url")
-        if (!url.startsWith("http")) Zapros.add("http://$url")
-
-        // Если WWW или м.б. сайт без HTTH то удалить приклеть и проверить Сайт или в Поиск
-        if (url.contains("www.")) Zapros.add(url.replace("www.", ""))
-        if (url.startsWith("www.")) Zapros.add("http://$url")
-        if (url.startsWith("www.")) Zapros.add("https://$url")
-        if (url.startsWith("www.")) Zapros.add(url.replace("www.", "http://"))
-        if (url.startsWith("www.")) Zapros.add(url.replace("www.", "http://"))
-
-        // TimeUnit.SECONDS.sleep(1);
-        return Zapros
-    }
-
-    fun tryHttp1(Zapros: java.util.ArrayList<String>): String? {
-        Toast.makeText(applicationContext, "Стартуют малые проверки задач=" + Zapros.size, Toast.LENGTH_LONG).show()
-        // Порождает кучу задач по количеству в листе
-        var answer: String? = null
-        var pingHttpTask: PingHttpTask
-        val listpingHttpTask = java.util.ArrayList<PingHttpTask>()    //  лист задач
-        for (Str in Zapros) {
-            pingHttpTask = PingHttpTask()
-            listpingHttpTask.add(pingHttpTask)
-            pingHttpTask.execute(Str)
-        }
-        // Проверяет кто из них жив true и  прибивает
-        for (task in listpingHttpTask) {
-            try {
-              if (answer==null) answer =task.get(3, TimeUnit.SECONDS)
-            } catch (e: TimeoutException) {
-            } catch (e: ExecutionException) {
-            } catch (e: InterruptedException) {
-            }
-            task.cancel(true)
-        }
-        return answer
-    }
-
-    fun tryHttp2(Zapros: java.util.ArrayList<String>): String? {
-        var answer: String? = null
-        Toast.makeText(applicationContext, "Стартует большая проверка шагов= " + Zapros.size, Toast.LENGTH_LONG).show()
-        val pingHttpTask = PingHttpTask()
-        pingHttpTask.execute(*Zapros.toTypedArray())
-        try {
-            try {
-                answer = pingHttpTask.get(5, TimeUnit.SECONDS)
-            } catch (e: TimeoutException) {
-                pingHttpTask.cancel(true)
-            }
-        } catch (e: ExecutionException) {
-        } catch (e: InterruptedException) {
-        }
-        pingHttpTask.cancel(true)
-        return answer
-    }
-
-    inner class PingHttpTask : AsyncTask<String, Void, String?>() {
-        override fun doInBackground(vararg urls: String): String? {
-            for (url in urls) {
-                try {
-                    val httpConnection = URL(url).openConnection() as HttpURLConnection
-                    httpConnection.requestMethod = "HEAD"
-                    // httpConnection.setReadTimeout(10000);
-                    val code = httpConnection.responseCode
-                    if (code == HttpURLConnection.HTTP_OK) { // (200) HttpURLConnection.HTTP_NOT_FOUND
-                        try {
-                            httpConnection.disconnect()
-                        } catch (e: Exception) {  }
-                        return url
-                    }
-                } catch (e: MalformedURLException) {
-                } catch (e: IOException) {
-                }
-            }
-            return null
-        }
-    }
 
     private inner class MyWebViewClient : WebViewClient() {
         @TargetApi(Build.VERSION_CODES.N)
@@ -229,20 +110,7 @@ class MainActivity : AppCompatActivity() {
             return true
         }
     }
-    inner class  Poisk :  AsyncTask<String, Void, Search?>() {
-        override fun doInBackground(vararg searchQuery: String): Search? {
-            var result: Search? = null
-            try {
-                val list = cs.cse().list(searchQuery[0]).setCx(myCX)   //Set search parameter
-                result = list.execute()    //Execute search
-                return result;
-            } catch (e: Exception) {
-                Log.d("POISK", "Exception")
-                Toast.makeText(applicationContext, "POISK : Exception", Toast.LENGTH_SHORT).show()
-            }
-            return result
-        }
-    }
+
     fun LV(result:Search?): String? {
 
             if ((result != null) && (result.items != null)) {   // Вывод результата
@@ -261,7 +129,7 @@ class MainActivity : AppCompatActivity() {
                    // startActivity(Intent(Intent.ACTION_VIEW, Uri.parse(result.items[position].link)))
                   val LINK = result.items[position].link
                    // return LINK!!
-                    //startActivity(Intent(Intent.ACTION_VIEW, Uri.parse(LINK)))
+                    startActivity(Intent(Intent.ACTION_VIEW, Uri.parse(LINK)))
                    //httpEdit = LINK
                     }
             } else {
@@ -274,5 +142,10 @@ class MainActivity : AppCompatActivity() {
         // прячем клавиатуру. view - это кнопка
         val imm = getSystemService(Context.INPUT_METHOD_SERVICE) as InputMethodManager
         imm.hideSoftInputFromWindow(view.windowToken,InputMethodManager.HIDE_NOT_ALWAYS)
+    }
+    fun isConnected(): Boolean {
+        val ni = (getSystemService(Context.CONNECTIVITY_SERVICE) as ConnectivityManager)
+            .activeNetworkInfo
+        return ni != null && ni.isConnected
     }
 }
