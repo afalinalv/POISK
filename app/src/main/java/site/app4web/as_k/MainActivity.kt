@@ -4,14 +4,11 @@ import android.annotation.TargetApi
 import android.content.Context
 import android.content.Intent
 
-
-
 import android.net.ConnectivityManager
 import android.net.Uri
 import android.os.Build
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-
 import android.util.Log
 import android.view.View
 import android.view.inputmethod.InputMethodManager
@@ -19,14 +16,11 @@ import android.webkit.WebResourceRequest
 import android.webkit.WebView
 import android.webkit.WebViewClient
 import android.widget.*
-
-import com.google.api.services.customsearch.model.Search
-
-
-import kotlinx.android.synthetic.main.activity_main.*
-
 import java.util.concurrent.TimeUnit
 import java.util.concurrent.TimeoutException
+import com.google.api.services.customsearch.model.Search
+import kotlinx.android.synthetic.main.activity_main.*
+
 
 class MainActivity : AppCompatActivity() {
 
@@ -49,9 +43,6 @@ class MainActivity : AppCompatActivity() {
         var endTime :Long = 0
         var deltaTime :Long = 0
         hideKeyboard(view)
-        // Спрятать клавиатуру из kitty
-       // val imm = getSystemService(Context.INPUT_METHOD_SERVICE)  as InputMethodManager
-       // imm.hideSoftInputFromWindow(button.windowToken,InputMethodManager.HIDE_NOT_ALWAYS)
          startTime = System.currentTimeMillis()
             httpEdit = editText.text.toString()
         val Zapros = listTryHttp(httpEdit)
