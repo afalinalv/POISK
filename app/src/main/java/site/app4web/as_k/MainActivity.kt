@@ -4,6 +4,7 @@ import android.annotation.TargetApi
 import android.content.Context
 import android.content.Intent
 
+
 import android.net.ConnectivityManager
 import android.net.Uri
 import android.os.Build
@@ -18,7 +19,6 @@ import android.webkit.WebViewClient
 import android.widget.*
 import java.util.concurrent.TimeUnit
 import java.util.concurrent.TimeoutException
-import com.google.api.services.customsearch.model.Search
 import kotlinx.android.synthetic.main.activity_main.*
 
 
@@ -82,8 +82,7 @@ class MainActivity : AppCompatActivity() {
         val poisk = Poisk().execute (searchQuery)
         try {
         val result = poisk.get(15, TimeUnit.SECONDS)
-            if (result!=null) {val items = result!!.items}
-            val LINK = LV(result)
+            val Link = Lv(result)
             } catch (e: TimeoutException) {
             poisk.cancel(true)
             endTime = System.currentTimeMillis()
@@ -102,11 +101,14 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
-    fun LV(result:Search?): String? {
+    fun Lv(result:Array<Array<String>>?): String? {
 
-            if ((result != null) && (result.items != null)) {   // Вывод результата
-                val rezList = ArrayList<String>(result.items.size)
-                result.items.forEach { ri -> rezList.add(ri.title) }
+            if (result != null)  {   // Вывод результата
+                val rezList = ArrayList<String>(result[1].size)
+              /*  for (i in 0 until result[0].size){
+                    rezList.add(result[0][i])
+                }*/
+                result[0].forEach { ri -> rezList.add(ri) }
 
                 val adapter: ListAdapter = ArrayAdapter(this, android.R.layout.simple_list_item_1, rezList)
                 listView.adapter = adapter
@@ -115,13 +117,14 @@ class MainActivity : AppCompatActivity() {
                 listView.setOnItemClickListener { _, _, position, _ ->
                     // по позиции получаем выбранный элемент
                   val selectedItem = rezList[position]
+                  val Link = result[1][position]
                     Toast.makeText(applicationContext, "выбран $selectedItem"  , Toast.LENGTH_SHORT).show()
-                    Toast.makeText(applicationContext, "LINK \n  ${result.items[position].link}"  , Toast.LENGTH_LONG).show()
+                    Toast.makeText(applicationContext, "LINK \n  $Link"  , Toast.LENGTH_LONG).show()
                    // startActivity(Intent(Intent.ACTION_VIEW, Uri.parse(result.items[position].link)))
-                  val LINK = result.items[position].link
-                   // return LINK!!
-                    startActivity(Intent(Intent.ACTION_VIEW, Uri.parse(LINK)))
-                   //httpEdit = LINK
+
+                   // return Link!!
+                    startActivity(Intent(Intent.ACTION_VIEW, Uri.parse(Link)))
+                   //httpEdit = Link
                     }
             } else {
                 Log.d("AS1", "resultgetItems()= null")

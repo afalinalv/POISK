@@ -13,12 +13,12 @@ import com.google.api.services.customsearch.model.Search
     передает их наверх не изменяя
  */
 
-class  Poisk :  AsyncTask<String, Void, Search?>() {
+class  Poisk : AsyncTask<String, Void, Array<Array<String>>?>() {
     val myCX = "003159383193150926956:c6m9ah2oy8e" //Your search engine
     val myKey = "AIzaSyCL_iY2ALQxC4w6Qfld253adeI_GGl_bmw"
     val myApp = "APP4WEB"
     lateinit var cs : Customsearch
-    override fun doInBackground(vararg searchQuery: String): Search? {
+    override fun doInBackground(vararg searchQuery: String): Array<Array<String>>? {
         var result: Search? = null
         cs = Customsearch.Builder(NetHttpTransport(), JacksonFactory.getDefaultInstance(), null)
             .setApplicationName(myApp)
@@ -27,12 +27,23 @@ class  Poisk :  AsyncTask<String, Void, Search?>() {
         try {
             val list = cs.cse().list(searchQuery[0]).setCx(myCX)   //Set search parameter
             result = list.execute()    //Execute search
-            val items = result.items
-            return result;
+            if ((result!=null) && (result.items!=null)) {
+                val items = result.items
+                val Nanswer = result.items.size
+                var sites: Array<Array<String>>?
+                sites = Array(2) { Array<String>(Nanswer){""}}
+                for (i in 0 .. Nanswer-1){
+                    sites[0][i] = result.items[i].title
+                    sites[1][i] = result.items[i].link
+
+                }
+                return sites
+            }
         } catch (e: Exception) {
             Log.d("POISK", "Exception")
            // Toast.makeText(applicationContext, "POISK : Exception", Toast.LENGTH_SHORT).show()
         }
-        return result
+        return null
     }
 }
+
