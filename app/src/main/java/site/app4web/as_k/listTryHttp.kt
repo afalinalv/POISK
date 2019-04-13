@@ -6,7 +6,7 @@ import java.net.URL
 fun listTryHttp(url: String): java.util.ArrayList<String> {
     var url = url
 
-    val Zapros = java.util.ArrayList<String>()                      // 2 Лист сайтов
+    val Zapros = ArrayList<String>()                      // 2 Лист сайтов
 
     // Если точно не САЙТ - в ПОИСК (false)
     if (!url.contains(".")) return Zapros
@@ -37,6 +37,5 @@ fun listTryHttp(url: String): java.util.ArrayList<String> {
     if (url.startsWith("www.")) Zapros.add(url.replace("www.", "http://"))
     if (url.startsWith("www.")) Zapros.add(url.replace("www.", "http://"))
 
-    // TimeUnit.SECONDS.sleep(1);
     return Zapros
 }

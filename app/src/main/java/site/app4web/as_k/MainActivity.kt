@@ -1,154 +1,79 @@
 package site.app4web.as_k
 
-import android.annotation.TargetApi
 import android.content.Context
 import android.content.Intent
-
-
 import android.net.ConnectivityManager
 import android.net.Uri
-import android.os.Build
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.util.Log
 import android.view.View
 import android.view.inputmethod.InputMethodManager
-import android.webkit.WebResourceRequest
-import android.webkit.WebView
-import android.webkit.WebViewClient
 import android.widget.*
 import java.util.concurrent.TimeUnit
 import java.util.concurrent.TimeoutException
-import kotlinx.android.synthetic.main.activity_main.*
 import android.widget.SimpleAdapter
-
-
-
+import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
-
-    internal var httpEdit: String = ""
-   // private var pingHttpTask: PingHttpTask? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        //StrictMode.setThreadPolicy(StrictMode.ThreadPolicy.Builder().permitAll().build())
 
         if (isConnected())Toast.makeText(applicationContext, "Инет Есть", Toast.LENGTH_SHORT).show()
                      else Toast.makeText(applicationContext, "НЕТ Инет ", Toast.LENGTH_SHORT).show()
-
-
     }
     fun onClick(view: View) {
-        var answerURL:String? = null
-        var startTime :Long = 0
-        var endTime :Long = 0
-        var deltaTime :Long = 0
         hideKeyboard(view)
-         startTime = System.currentTimeMillis()
-            httpEdit = editText.text.toString()
-        val Zapros = listTryHttp(httpEdit)
-            answerURL = tryHttp1(Zapros)
-        if (answerURL !=null) { // сайт пингуется
-            httpEdit = answerURL
+        var httpEdit :String?
+        httpEdit = editText.text.toString()
+
+        val Zapros = listTryHttp(httpEdit!!)
+            httpEdit = tryHttp1(Zapros)
+        if (httpEdit !=null) { // сайт пингуется
             editText.setText(httpEdit)
-            Toast.makeText(applicationContext, "tryHttp1 Сайт доступен", Toast.LENGTH_SHORT).show()
+            Toast.makeText(applicationContext, "tryHttp1 Сайт доступен $httpEdit", Toast.LENGTH_SHORT).show()
             startActivity(Intent(Intent.ACTION_VIEW, Uri.parse(httpEdit)))
             return
         } else {   // сайт НЕ пингуется
-             endTime = System.currentTimeMillis()
-            deltaTime=endTime-startTime
-            Toast.makeText(applicationContext, "tryHttp1 Сайт НЕ доступен  $deltaTime", Toast.LENGTH_SHORT).show()
+             Toast.makeText(applicationContext, "tryHttp1 Сайт НЕ доступен  ", Toast.LENGTH_SHORT).show()
         }
-        //Thread.sleep(10000);
-        startTime = System.currentTimeMillis()
-            answerURL = tryHttp2(Zapros)
-        if (answerURL !=null) { // сайт пингуется
-            httpEdit = answerURL
+            httpEdit = tryHttp2(Zapros)
+        if (httpEdit !=null) { // сайт пингуется
             editText.setText(httpEdit)
-            //textView.setText("!!!!!!!!Сайт доступен   $httpEdit")
             Toast.makeText(applicationContext, "!!!!!!!!Сайт доступен  $httpEdit", Toast.LENGTH_SHORT).show()
             startActivity(Intent(Intent.ACTION_VIEW, Uri.parse(httpEdit)))
             return
         } else {
-            endTime = System.currentTimeMillis()
-            deltaTime=endTime-startTime
-           // textView.setText("$httpEdit  Сайт НЕ доступен#######")
-            Toast.makeText(applicationContext, "$httpEdit Сайт НЕ доступен####### $deltaTime", Toast.LENGTH_SHORT).show()
-           // webView.loadUrl("")
+            Toast.makeText(applicationContext, "tryHttp2 Сайт НЕ доступен####### ", Toast.LENGTH_SHORT).show()
         }
-        //Thread.sleep(10000);
-        startTime = System.currentTimeMillis()
         // Вызов GOOGLE Search
         val searchQuery = editText.text.toString()  //The query to search
         val poisk = Poisk().execute (searchQuery)
         try {
-        val result = poisk.get(15, TimeUnit.SECONDS)
-            val Link = Lv(result)
+            Lv(poisk.get(15, TimeUnit.SECONDS))
             } catch (e: TimeoutException) {
             poisk.cancel(true)
-            endTime = System.currentTimeMillis()
-            deltaTime=endTime-startTime
-            Toast.makeText(applicationContext, " Вышло Время Поиска $deltaTime", Toast.LENGTH_SHORT).show()
-        }
-
-     //   if (LINK != null) httpEdit = LINK
-    }
-
-    private inner class MyWebViewClient : WebViewClient() {
-        @TargetApi(Build.VERSION_CODES.N)
-        override fun shouldOverrideUrlLoading(view: WebView, request: WebResourceRequest): Boolean {
-            view.loadUrl(request.url.toString())
-            return true
+            Toast.makeText(applicationContext, " Вышло Время Поиска ", Toast.LENGTH_SHORT).show()
+            listView.adapter = null
         }
     }
 
-    fun Lv(result:Array<Array<String>>?): String? {
-
-        if (result != null) {   // Вывод результата
-            val rezList = ArrayList<String>(result[1].size)
-            result[0].forEach { ri -> rezList.add(ri) }
-
-            val arrayList = ArrayList<HashMap<String, String>>(result[1].size)
-            var map: HashMap<String, String>
-
-            for (i in 0.. result[1].size-1){
-                map = HashMap()
-                map["Http"]  = result[1][i]
-                map["Title"] = result[0][i]
-                arrayList.add(map)
-            }
-
-            val adapter1: ListAdapter = ArrayAdapter(this, android.R.layout.simple_list_item_1, rezList)
-            val adapter2 = SimpleAdapter(
-                this, arrayList, android.R.layout.simple_list_item_2,
+    fun Lv(result:ArrayList<HashMap<String, String>>?): String? {
+        if (result == null) return null   // Вывод результата
+            listView.adapter = SimpleAdapter(
+                this, result, android.R.layout.simple_list_item_2,
                 arrayOf("Http", "Title"),
                 intArrayOf(android.R.id.text1, android.R.id.text2)
             )
-         //   listView.adapter = adapter1
-            listView.adapter = adapter2
-
-
             // добвляем для списка слушатель
                 listView.setOnItemClickListener { _, _, position, _ ->
-                    // по позиции получаем выбранный элемент
-                  val selectedItem = result[0][position]
-                  val Link = result[1][position]
-                    Toast.makeText(applicationContext, "выбран $selectedItem"  , Toast.LENGTH_SHORT).show()
-                    Toast.makeText(applicationContext, "LINK \n  $Link"  , Toast.LENGTH_LONG).show()
-                   // startActivity(Intent(Intent.ACTION_VIEW, Uri.parse(result.items[position].link)))
-
-                   // return Link!!
-                    startActivity(Intent(Intent.ACTION_VIEW, Uri.parse(Link)))
-                   //httpEdit = Link
-                    }
-            } else {
-                Log.d("AS1", "resultgetItems()= null")
-                Toast.makeText(applicationContext, "resultgetItems()= null", Toast.LENGTH_SHORT).show()
-            }
+                    Toast.makeText(applicationContext, "выбран $position "  , Toast.LENGTH_SHORT).show()
+                    startActivity(Intent(Intent.ACTION_VIEW, Uri.parse(result[position]["Http"])))
+                  }
         return null
     }
+
     private fun hideKeyboard(view: View) {
         // прячем клавиатуру. view - это кнопка
         val imm = getSystemService(Context.INPUT_METHOD_SERVICE) as InputMethodManager

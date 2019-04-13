@@ -4,19 +4,18 @@ import java.util.concurrent.ExecutionException
 import java.util.concurrent.TimeUnit
 import java.util.concurrent.TimeoutException
 
-fun tryHttp1(Zapros: java.util.ArrayList<String>): String? {
-    //Toast.makeText(applicationContext, "Стартуют малые проверки задач=" + Zapros.size, Toast.LENGTH_LONG).show()
+fun tryHttp1(Zapros: ArrayList<String>): String? {
     // Порождает кучу задач по количеству в листе
     var answer: String? = null
     var pingHttpTask: PingHttpTask
-    val listpingHttpTask = java.util.ArrayList<PingHttpTask>()    //  лист задач
-    for (Str in Zapros) {
+    val listpingHttpTask = ArrayList<PingHttpTask>()    //  лист задач
+    Zapros.forEach { Str ->
         pingHttpTask = PingHttpTask()
         listpingHttpTask.add(pingHttpTask)
         pingHttpTask.execute(Str)
     }
     // Проверяет кто из них жив true и  прибивает
-    for (task in listpingHttpTask) {
+    listpingHttpTask.forEach { task ->
         try {
             if (answer==null) answer =task.get(3, TimeUnit.SECONDS)
         } catch (e: TimeoutException) {
@@ -28,7 +27,7 @@ fun tryHttp1(Zapros: java.util.ArrayList<String>): String? {
     return answer
 }
 
-fun tryHttp2(Zapros: java.util.ArrayList<String>): String? {
+fun tryHttp2(Zapros: ArrayList<String>): String? {
     var answer: String? = null
     //Toast.makeText(applicationContext, "Стартует большая проверка шагов= " + Zapros.size, Toast.LENGTH_LONG).show()
     val pingHttpTask = PingHttpTask()

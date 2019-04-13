@@ -16,13 +16,13 @@ import java.net.URL
  */
 class PingHttpTask : AsyncTask<String, Void, String?>() {
     override fun doInBackground(vararg urls: String): String? {
-        for (url in urls) {
+        urls.forEach { url ->
             try {
                 val httpConnection = URL(url).openConnection() as HttpURLConnection
                 httpConnection.requestMethod = "HEAD"
                 // httpConnection.setReadTimeout(10000)
                 val code = httpConnection.responseCode
-                if (code == HttpURLConnection.HTTP_OK) { // (200) HttpURLConnection.HTTP_NOT_FOUND
+                if (code != HttpURLConnection.HTTP_OK) { // (200) HttpURLConnection.HTTP_NOT_FOUND
                     try {
                         httpConnection.disconnect()
                     } catch (e: Exception) {  }
