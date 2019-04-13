@@ -20,6 +20,9 @@ import android.widget.*
 import java.util.concurrent.TimeUnit
 import java.util.concurrent.TimeoutException
 import kotlinx.android.synthetic.main.activity_main.*
+import android.widget.SimpleAdapter
+
+
 
 
 class MainActivity : AppCompatActivity() {
@@ -103,20 +106,34 @@ class MainActivity : AppCompatActivity() {
 
     fun Lv(result:Array<Array<String>>?): String? {
 
-            if (result != null)  {   // Вывод результата
-                val rezList = ArrayList<String>(result[1].size)
-              /*  for (i in 0 until result[0].size){
-                    rezList.add(result[0][i])
-                }*/
-                result[0].forEach { ri -> rezList.add(ri) }
+        if (result != null) {   // Вывод результата
+            val rezList = ArrayList<String>(result[1].size)
+            result[0].forEach { ri -> rezList.add(ri) }
 
-                val adapter: ListAdapter = ArrayAdapter(this, android.R.layout.simple_list_item_1, rezList)
-                listView.adapter = adapter
+            val arrayList = ArrayList<HashMap<String, String>>(result[1].size)
+            var map: HashMap<String, String>
 
-                // добвляем для списка слушатель
+            for (i in 0.. result[1].size-1){
+                map = HashMap()
+                map["Http"]  = result[1][i]
+                map["Title"] = result[0][i]
+                arrayList.add(map)
+            }
+
+            val adapter1: ListAdapter = ArrayAdapter(this, android.R.layout.simple_list_item_1, rezList)
+            val adapter2 = SimpleAdapter(
+                this, arrayList, android.R.layout.simple_list_item_2,
+                arrayOf("Http", "Title"),
+                intArrayOf(android.R.id.text1, android.R.id.text2)
+            )
+         //   listView.adapter = adapter1
+            listView.adapter = adapter2
+
+
+            // добвляем для списка слушатель
                 listView.setOnItemClickListener { _, _, position, _ ->
                     // по позиции получаем выбранный элемент
-                  val selectedItem = rezList[position]
+                  val selectedItem = result[0][position]
                   val Link = result[1][position]
                     Toast.makeText(applicationContext, "выбран $selectedItem"  , Toast.LENGTH_SHORT).show()
                     Toast.makeText(applicationContext, "LINK \n  $Link"  , Toast.LENGTH_LONG).show()
