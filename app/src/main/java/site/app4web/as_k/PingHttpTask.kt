@@ -22,7 +22,7 @@ class PingHttpTask : AsyncTask<String, Void, String?>() {
                 httpConnection.requestMethod = "HEAD"
                 // httpConnection.setReadTimeout(10000)
                 val code = httpConnection.responseCode
-                if (code != HttpURLConnection.HTTP_OK) { // (200) HttpURLConnection.HTTP_NOT_FOUND
+                if (code == HttpURLConnection.HTTP_OK) { // (200) HttpURLConnection.HTTP_NOT_FOUND
                     try {
                         httpConnection.disconnect()
                     } catch (e: Exception) {  }
