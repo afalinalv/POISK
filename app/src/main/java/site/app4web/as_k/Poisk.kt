@@ -5,6 +5,11 @@ import com.google.api.client.http.javanet.NetHttpTransport
 import com.google.api.client.json.jackson2.JacksonFactory
 import com.google.api.services.customsearch.Customsearch
 import com.google.api.services.customsearch.CustomsearchRequestInitializer
+import com.google.api.services.customsearch.model.Result
+import com.google.gson.Gson
+import com.google.gson.GsonBuilder
+
+
 
 
 /* Обращается к Google Search для поиска передаваемой строки
@@ -28,6 +33,18 @@ class  Poisk : AsyncTask<String, Void, ArrayList<HashMap<String, String>>?>() {
             val result = list.execute()    //Execute search
             if (result == null) return null
             if (result.items == null) return null
+        val resitem: MutableList<Result>?
+        resitem = result.items
+        val resultMap = result
+        val gsonMapBuilder : GsonBuilder = GsonBuilder()
+        val gsonObject : Gson = gsonMapBuilder.create()
+        val JsonObject : String =gsonObject.toJson (resitem)
+        val prettyGson : Gson = GsonBuilder().setPrettyPrinting().create()
+        val prettyJson :String = prettyGson.toJson(resitem)
+
+        val resObj = CrunchifyMapToJsonObject(result)
+
+
 
             val sites: ArrayList<HashMap<String, String>>?
                 sites = ArrayList<HashMap<String, String>>(result.items.size)

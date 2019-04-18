@@ -3,39 +3,39 @@ package site.app4web.as_k
 import java.net.MalformedURLException
 import java.net.URL
 
-fun listTryHttp(url: String): java.util.ArrayList<String> {
-    var url = url
+fun listTryHttp(url_zapros: String): ArrayList<String> {
+    var url_site = url_zapros
 
-    val Zapros = ArrayList<String>()                      // 2 Лист сайтов
+    val TryList = ArrayList<String>()                      // 2 Лист сайтов
 
-    // Если точно не САЙТ - в ПОИСК (false)
-    if (!url.contains(".")) return Zapros
-    url = url.trim { it <= ' ' }.toLowerCase()
-    if (url.startsWith(".")) return Zapros
-    if (url.endsWith(".")) return Zapros
-    if (url.contains(" ")) return Zapros
+    // Если точно не САЙТ - в ПОИСК (empty)
+    if (!url_site.contains("."))    return TryList
+    url_site = url_site.trim { it <= ' ' }.toLowerCase()
+    if (url_site.startsWith("."))   return TryList
+    if (url_site.endsWith("."))     return TryList
+    if (url_site.contains(" "))     return TryList
 
     // Если это все таки URL - проверка на правильность и http <--> https
     try {
-        URL(url)
+        URL(url_site)
         // Это наконец есть ли указанный "точно" сайт в Сети
-        Zapros.add(url)  // Простая прямая проверка на то что ввели в url
-        if (url.startsWith("http:")) Zapros.add(url.replace("http://", "https://"))
-        if (url.startsWith("https:")) Zapros.add(url.replace("https://", "http://"))
+        TryList.add(url_site)  // Простая прямая проверка на то что ввели в url_site
+        if (url_site.startsWith("http:"))  TryList.add(url_site.replace("http://", "https://"))
+        if (url_site.startsWith("https:")) TryList.add(url_site.replace("https://", "http://"))
     } catch (e: MalformedURLException) {
-      // Toast.makeText(applicationContext, "Запрос не является URL: $url", Toast.LENGTH_SHORT).show()
+        // Toast.makeText(applicationContext, "Запрос не является URL: $url_site", Toast.LENGTH_SHORT).show()
     }
 
     // Если сайт без HTTH то приклеть и проверить Сайт или в Поиск
-    if (!url.startsWith("http")) Zapros.add("https://$url")
-    if (!url.startsWith("http")) Zapros.add("http://$url")
+    if (!url_site.startsWith("http")) TryList.add("https://$url_site")
+    if (!url_site.startsWith("http")) TryList.add("http://$url_site")
 
-    // Если WWW или м.б. сайт без HTTH то удалить приклеть и проверить Сайт или в Поиск
-    if (url.contains("www.")) Zapros.add(url.replace("www.", ""))
-    if (url.startsWith("www.")) Zapros.add("http://$url")
-    if (url.startsWith("www.")) Zapros.add("https://$url")
-    if (url.startsWith("www.")) Zapros.add(url.replace("www.", "http://"))
-    if (url.startsWith("www.")) Zapros.add(url.replace("www.", "http://"))
+    // Если WWW или м.б. сайт без HTTH то удалить приклеть и проверить Сайтб если нет то в Поиск
+    if (url_site.contains("www.")) TryList.add(url_site.replace("www.", ""))
+    if (url_site.startsWith("www.")) TryList.add("http://$url_site")
+    if (url_site.startsWith("www.")) TryList.add("https://$url_site")
+    if (url_site.startsWith("www.")) TryList.add(url_site.replace("www.", "http://"))
+    if (url_site.startsWith("www.")) TryList.add(url_site.replace("www.", "http://"))
 
-    return Zapros
+    return TryList
 }

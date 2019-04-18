@@ -28,7 +28,7 @@ class MainActivity : AppCompatActivity() {
         var httpEdit :String?
         httpEdit = editText.text.toString()
 
-        val Zapros = listTryHttp(httpEdit!!)
+        val Zapros = listTryHttp(httpEdit)
             httpEdit = tryHttp1(Zapros)
         if (httpEdit !=null) { // сайт пингуется
             editText.setText(httpEdit)
