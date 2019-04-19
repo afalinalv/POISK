@@ -1,0 +1,711 @@
+{
+  "context": {
+    "title": "Google"
+  },
+  "items": [
+    {
+      "cacheId": "N8Ij1sUKXn0J",
+      "displayLink": "play.google.com",
+      "formattedUrl": "https://play.google.com/.../details?id...brazukatickets.brazukaevents...",
+      "htmlFormattedUrl": "https://play.google.com/.../details?id...\u003cb\u003ebrazuka\u003c/b\u003etickets.\u003cb\u003ebrazuka\u003c/b\u003eevents...",
+      "htmlSnippet": "The \u003cb\u003eBrazuka\u003c/b\u003e Events App is the best way to discover, buy and even sell tickets to \u003cbr\u003e\nbrazilian events that are happening around you! Features: - Check a list of\u0026nbsp;...",
+      "htmlTitle": "\u003cb\u003eBRAZUKA\u003c/b\u003e EVENTS - Apps on Google Play",
+      "kind": "customsearch#result",
+      "link": "https://play.google.com/store/apps/details?id\u003dcom.brazukatickets.brazukaevents\u0026hl\u003den_US",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "width": "321",
+            "height": "157",
+            "src": "https://encrypted-tbn3.gstatic.com/images?q\u003dtbn:ANd9GcRbdF3F-TZubfqby5SGjfZa4CjRW5MOjQRHvjSv_TvgTzKwnxG66-8Ggec"
+          }
+        ],
+        "softwareapplication": [
+          {
+            "operatingsystem": "ANDROID",
+            "name": "BRAZUKA EVENTS",
+            "url": "https://play.google.com/store/apps/details/BRAZUKA_EVENTS?id\u003dcom.brazukatickets.brazukaevents\u0026hl\u003den_US",
+            "image": "https://lh3.googleusercontent.com/7O4n4pKsgTmNVzZMl55yKXbtDrZkMhsNYQHGPa1A4DO-Y4AwSEeet1xlfm2C2SLXT4E",
+            "description": "The Brazuka Events App is the best way to discover, buy and even sell tickets to brazilian events that are happening around you! Features: - Check a list of events near by you - Share with...",
+            "contentrating": "Teen",
+            "applicationcategory": "EVENTS"
+          }
+        ],
+        "aggregaterating": [
+          {
+            "ratingvalue": "5",
+            "reviewcount": "2"
+          }
+        ],
+        "metatags": [
+          {
+            "referrer": "origin",
+            "viewport": "width\u003ddevice-width, initial-scale\u003d1",
+            "mobile-web-app-capable": "yes",
+            "apple-mobile-web-app-capable": "yes",
+            "og:type": "website",
+            "og:url": "https://play.google.com/store/apps/details?id\u003dcom.brazukatickets.brazukaevents\u0026hl\u003den_US",
+            "twitter:url": "https://play.google.com/store/apps/details?id\u003dcom.brazukatickets.brazukaevents\u0026hl\u003den_US",
+            "og:title": "BRAZUKA EVENTS - Apps on Google Play",
+            "twitter:title": "BRAZUKA EVENTS - Apps on Google Play",
+            "og:image": "https://lh3.googleusercontent.com/k7wSBgx_iBOrvqBIVRUhWxDdajaAYTyGU37jhIUfXFj3biZ-zIuQQmLjpVwihDXeYhg",
+            "twitter:image": "https://lh3.googleusercontent.com/k7wSBgx_iBOrvqBIVRUhWxDdajaAYTyGU37jhIUfXFj3biZ-zIuQQmLjpVwihDXeYhg",
+            "appstore:developer_url": "http://www.brazukatickets.com",
+            "appstore:bundle_id": "com.brazukatickets.brazukaevents",
+            "appstore:store_id": "com.brazukatickets.brazukaevents"
+          }
+        ],
+        "offer": [
+          {
+            "url": "https://play.google.com/store/apps/details?id\u003dcom.brazukatickets.brazukaevents\u0026rdid\u003dcom.brazukatickets.brazukaevents\u0026feature\u003dmd\u0026offerId",
+            "price": "0"
+          },
+          {
+            "price": "0",
+            "pricecurrency": "USD",
+            "availability": "https://schema.org/InStock"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://lh3.googleusercontent.com/k7wSBgx_iBOrvqBIVRUhWxDdajaAYTyGU37jhIUfXFj3biZ-zIuQQmLjpVwihDXeYhg"
+          }
+        ]
+      },
+      "snippet": "The Brazuka Events App is the best way to discover, buy and even sell tickets to \nbrazilian events that are happening around you! Features: - Check a list of ...",
+      "title": "BRAZUKA EVENTS - Apps on Google Play"
+    },
+    {
+      "cacheId": "Z0ayWs1SZSQJ",
+      "displayLink": "play.google.com",
+      "formattedUrl": "https://play.google.com/store/apps/developer?id\u003dBrazuka+Tickets",
+      "htmlFormattedUrl": "https://play.google.com/store/apps/developer?id\u003d\u003cb\u003eBrazuka\u003c/b\u003e+Tickets",
+      "htmlSnippet": "Enjoy millions of the latest Android apps, games, music, movies, TV, books, \u003cbr\u003e\nmagazines \u0026amp; more. Anytime, anywhere, across your devices.",
+      "htmlTitle": "Android Apps by \u003cb\u003eBrazuka\u003c/b\u003e Tickets on Google Play",
+      "kind": "customsearch#result",
+      "link": "https://play.google.com/store/apps/developer?id\u003dBrazuka+Tickets",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "width": "128",
+            "height": "128",
+            "src": "https://encrypted-tbn3.gstatic.com/images?q\u003dtbn:ANd9GcRS9QMMLwtjE9-32rFDK-NtHvSngwMb9qMUgF86XDBan1Gu09PphG0XmEFN"
+          }
+        ],
+        "metatags": [
+          {
+            "referrer": "origin",
+            "viewport": "width\u003ddevice-width, initial-scale\u003d1",
+            "mobile-web-app-capable": "yes",
+            "apple-mobile-web-app-capable": "yes",
+            "og:type": "website",
+            "og:url": "https://play.google.com/store/apps/developer?id\u003dBrazuka+Tickets\u0026hl\u003den_US",
+            "twitter:url": "https://play.google.com/store/apps/developer?id\u003dBrazuka+Tickets\u0026hl\u003den_US",
+            "og:title": "Android Apps by Brazuka Tickets on Google Play",
+            "twitter:title": "Android Apps by Brazuka Tickets on Google Play"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://lh3.googleusercontent.com/7O4n4pKsgTmNVzZMl55yKXbtDrZkMhsNYQHGPa1A4DO-Y4AwSEeet1xlfm2C2SLXT4E\u003ds128-rw"
+          }
+        ]
+      },
+      "snippet": "Enjoy millions of the latest Android apps, games, music, movies, TV, books, \nmagazines \u0026 more. Anytime, anywhere, across your devices.",
+      "title": "Android Apps by Brazuka Tickets on Google Play"
+    },
+    {
+      "cacheId": "aYm7FctU3oUJ",
+      "displayLink": "plus.google.com",
+      "formattedUrl": "https://plus.google.com/103936781004014973377/.../TFLoSJjxRbb",
+      "htmlFormattedUrl": "https://plus.google.com/103936781004014973377/.../TFLoSJjxRbb",
+      "htmlSnippet": "Jun 22, 2014 \u003cb\u003e...\u003c/b\u003e KXy - Point Blank : Colt Python \u003cb\u003eBrazuka\u003c/b\u003e ใส่กระสุน 11 นัด!!! Krain Xyber. Loading... \u003cbr\u003e\nUnsubscribe from Krain Xyber? Cancel Unsubscribe. Working.",
+      "htmlTitle": "KXy - Point Blank : Colt Python \u003cb\u003eBrazuka\u003c/b\u003e ใส่กระสุน 11 นัด!!! - YouTube",
+      "kind": "customsearch#result",
+      "link": "https://plus.google.com/103936781004014973377/posts/TFLoSJjxRbb",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "width": "300",
+            "height": "168",
+            "src": "https://encrypted-tbn3.gstatic.com/images?q\u003dtbn:ANd9GcQ5ae3CJpTUgQ-33xAgTS_lKkl6bwmOmh4GKolcOruSpla398xDcZmZgTgS"
+          }
+        ],
+        "metatags": [
+          {
+            "og:site_name": "YouTube",
+            "og:url": "https://www.youtube.com/watch?v\u003dV9AHpbQBn9U",
+            "og:title": "KXy - Point Blank : Colt Python Brazuka ใส่กระสุน 11 นัด!!! - YouTube",
+            "og:description": "Weapon:Colt Python Brazuka Type:Secondary Weapon ----------------------------------------------------------------------------------- Song BEXTER_Double Cr...",
+            "og:image": "https://i.ytimg.com/vi/V9AHpbQBn9U/maxresdefault.jpg",
+            "apple-itunes-app": "app-id\u003d544007664",
+            "al:ios:app_store_id": "544007664",
+            "al:ios:app_name": "YouTube",
+            "al:ios:url": "vnd.youtube://www.youtube.com/watch?v\u003dV9AHpbQBn9U\u0026feature\u003dapplinks",
+            "al:android:url": "vnd.youtube://www.youtube.com/watch?v\u003dV9AHpbQBn9U\u0026feature\u003dapplinks",
+            "al:android:app_name": "YouTube",
+            "al:android:package": "com.google.android.youtube",
+            "al:web:url": "https://www.youtube.com/watch?v\u003dV9AHpbQBn9U\u0026feature\u003dapplinks",
+            "al:web:should_fallback": "true",
+            "og:type": "video.other",
+            "og:video:url": "https://www.youtube.com/embed/V9AHpbQBn9U",
+            "og:video:secure_url": "https://www.youtube.com/embed/V9AHpbQBn9U",
+            "og:video:type": "text/html",
+            "og:video:width": "1280",
+            "og:video:height": "720",
+            "og:video:tag": "PBTH"
+          }
+        ],
+        "videoobject": [
+          {
+            "url": "https://www.youtube.com/watch?v\u003dV9AHpbQBn9U",
+            "name": "KXy - Point Blank : Colt Python Brazuka ใส่กระสุน 11 นัด!!! - YouTube",
+            "description": "Weapon:Colt Python Brazuka Type:Secondary Weapon ----------------------------------------------------------------------------------- Song BEXTER_Double Cr...",
+            "paid": "False",
+            "interactioncount": "14410",
+            "datepublished": "2014-06-22",
+            "genre": "Gaming",
+            "channelid": "UC_1V6W-79v23tzOZfhJZMSQ",
+            "videoid": "V9AHpbQBn9U",
+            "duration": "PT19M44S",
+            "unlisted": "False",
+            "thumbnailurl": "https://i.ytimg.com/vi/V9AHpbQBn9U/maxresdefault.jpg",
+            "embedurl": "https://www.youtube.com/embed/V9AHpbQBn9U",
+            "playertype": "HTML5 Flash",
+            "width": "1280",
+            "height": "720",
+            "isfamilyfriendly": "True",
+            "regionsallowed": "AD,AE,AF,AG,AI,AL,AM,AO,AQ,AR,AS,AT,AU,AW,AX,AZ,BA,BB,BD,BE,BF,BG,BH,BI,BJ,BL,BM,BN,BO,BQ,BR,BS,BT,BV,BW,BY,BZ,CA,CC,CD,CF,CG,CH,CI,CK,CL,CM,CN,CO,CR,CU,CV,CW,CX,CY,CZ,DE,DJ,DK,DM,DO,DZ,EC,EE,EG,EH..."
+          }
+        ],
+        "imageobject": [
+          {
+            "url": "https://i.ytimg.com/vi/V9AHpbQBn9U/maxresdefault.jpg",
+            "width": "1280",
+            "height": "720"
+          }
+        ],
+        "person": [
+          {
+            "name": "Krain Xyber",
+            "url": "http://www.youtube.com/user/Zreastz"
+          },
+          {
+            "name": "Krain Xyber",
+            "url": "https://plus.google.com/105285917903612985017"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://i.ytimg.com/vi/V9AHpbQBn9U/maxresdefault.jpg"
+          }
+        ]
+      },
+      "snippet": "Jun 22, 2014 ... KXy - Point Blank : Colt Python Brazuka ใส่กระสุน 11 นัด!!! Krain Xyber. Loading... \nUnsubscribe from Krain Xyber? Cancel Unsubscribe. Working.",
+      "title": "KXy - Point Blank : Colt Python Brazuka ใส่กระสุน 11 นัด!!! - YouTube"
+    },
+    {
+      "cacheId": "UAk-CHCRZsAJ",
+      "displayLink": "plus.google.com",
+      "formattedUrl": "https://plus.google.com/111812087688100685242",
+      "htmlFormattedUrl": "https://plus.google.com/111812087688100685242",
+      "htmlSnippet": "\u003cb\u003eBrazuka\u003c/b\u003e. Public... Mar 27, 2016 \u0026middot; UltraShock Gaming. UltraShock Weekly \u003cbr\u003e\nGiveaways! USG Daily Giveaways! Yesterday\u0026#39;s Daily Giveaway Winners! wn.nr.",
+      "htmlTitle": "\u003cb\u003eBrazuka\u003c/b\u003e - Google+",
+      "kind": "customsearch#result",
+      "link": "https://plus.google.com/111812087688100685242",
+      "pagemap": {
+        "metatags": [
+          {
+            "referrer": "origin",
+            "viewport": "width\u003ddevice-width,initial-scale\u003d1,minimum-scale\u003d1,maximum-scale\u003d1,user-scalable\u003dno,minimal-ui",
+            "apple-itunes-app": "app-id\u003d447119634, affiliate-data\u003dct\u003dSmartBanner\u0026pt\u003d9008",
+            "mobile-web-app-capable": "yes",
+            "apple-mobile-web-app-capable": "yes",
+            "application-name": "Google+",
+            "apple-mobile-web-app-title": "Google+",
+            "apple-mobile-web-app-status-bar-style": "black",
+            "msapplication-tap-highlight": "no",
+            "og:title": "Brazuka - Google+",
+            "og:type": "profile",
+            "og:url": "https://plus.google.com/111812087688100685242",
+            "og:description": "Apenas Comecei :)",
+            "twitter:card": "summary"
+          }
+        ],
+        "hcard": [
+          {
+            "fn": "Brazuka",
+            "nickname": "Brazuka",
+            "url": "https://plus.google.com/111812087688100685242",
+            "photo": "https://lh3.googleusercontent.com/a-/AAuE7mAsYQBWWwBuxqdoLlsS3vyrRIOJtiVHdwQafeBeBQ\u003ds640-rw-il"
+          }
+        ],
+        "person": [
+          {
+            "name": "Brazuka",
+            "url": "https://plus.google.com/111812087688100685242",
+            "image": "https://lh3.googleusercontent.com/a-/AAuE7mAsYQBWWwBuxqdoLlsS3vyrRIOJtiVHdwQafeBeBQ\u003ds640-rw-il",
+            "description": "Apenas Comecei :)"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://lh3.googleusercontent.com/a-/AAuE7mAsYQBWWwBuxqdoLlsS3vyrRIOJtiVHdwQafeBeBQ\u003ds640-rw-il"
+          }
+        ]
+      },
+      "snippet": "Brazuka. Public... Mar 27, 2016 · UltraShock Gaming. UltraShock Weekly \nGiveaways! USG Daily Giveaways! Yesterday\u0027s Daily Giveaway Winners! wn.nr.",
+      "title": "Brazuka - Google+"
+    },
+    {
+      "cacheId": "LZeg2n14hngJ",
+      "displayLink": "plus.google.com",
+      "formattedUrl": "https://plus.google.com/+BrazukaTVShow",
+      "htmlFormattedUrl": "https://plus.google.com/+\u003cb\u003eBrazuka\u003c/b\u003eTVShow",
+      "htmlSnippet": "\u003cb\u003eBrazuka\u003c/b\u003e TV - Google+. ... \u003cb\u003eBrazuka\u003c/b\u003e TV S3 E4 Halloween at the Magical Forest. \u003cbr\u003e\nAdd a comment... no plus ones ... \u003cb\u003eBRAZUKA\u003c/b\u003e TV S4 E3 Part 2 Tito and the Birds.",
+      "htmlTitle": "\u003cb\u003eBrazuka\u003c/b\u003e TV - Google+",
+      "kind": "customsearch#result",
+      "link": "https://plus.google.com/+BrazukaTVShow",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "width": "224",
+            "height": "225",
+            "src": "https://encrypted-tbn0.gstatic.com/images?q\u003dtbn:ANd9GcSxv0mGmbsVzvLf5EW68TqJIWnoqqkDREXcygbXrhLldEIUh1_qxjbWhPM"
+          }
+        ],
+        "metatags": [
+          {
+            "referrer": "origin",
+            "viewport": "width\u003ddevice-width,initial-scale\u003d1,minimum-scale\u003d1,maximum-scale\u003d1,user-scalable\u003dno,minimal-ui",
+            "apple-itunes-app": "app-id\u003d447119634, affiliate-data\u003dct\u003dSmartBanner\u0026pt\u003d9008",
+            "mobile-web-app-capable": "yes",
+            "apple-mobile-web-app-capable": "yes",
+            "application-name": "Google+",
+            "apple-mobile-web-app-title": "Google+",
+            "apple-mobile-web-app-status-bar-style": "black",
+            "msapplication-tap-highlight": "no",
+            "og:title": "Brazuka TV - Google+",
+            "og:type": "profile",
+            "og:url": "https://plus.google.com/+BrazukaTVShow",
+            "og:description": "A Google+ profile for Brazuka TV",
+            "twitter:card": "summary"
+          }
+        ],
+        "hcard": [
+          {
+            "fn": "Brazuka TV",
+            "url": "https://plus.google.com/+BrazukaTVShow",
+            "photo": "https://lh3.googleusercontent.com/a-/AAuE7mAeF7XIGrBWAFNROkiU8qHyJ0BXCk2MMZ_ONdbn\u003ds640-rw-il"
+          }
+        ],
+        "person": [
+          {
+            "name": "Brazuka TV",
+            "url": "https://plus.google.com/+BrazukaTVShow",
+            "image": "https://lh3.googleusercontent.com/a-/AAuE7mAeF7XIGrBWAFNROkiU8qHyJ0BXCk2MMZ_ONdbn\u003ds640-rw-il"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://lh3.googleusercontent.com/a-/AAuE7mAeF7XIGrBWAFNROkiU8qHyJ0BXCk2MMZ_ONdbn\u003ds640-rw-il"
+          }
+        ]
+      },
+      "snippet": "Brazuka TV - Google+. ... Brazuka TV S3 E4 Halloween at the Magical Forest. \nAdd a comment... no plus ones ... BRAZUKA TV S4 E3 Part 2 Tito and the Birds.",
+      "title": "Brazuka TV - Google+"
+    },
+    {
+      "cacheId": "O1nl8-I7MVUJ",
+      "displayLink": "plus.google.com",
+      "formattedUrl": "https://plus.google.com/109327109465897592364",
+      "htmlFormattedUrl": "https://plus.google.com/109327109465897592364",
+      "htmlSnippet": "\u003cb\u003eBrazuka\u003c/b\u003e Webmaster. Public... 46w. Faça uma visita ao nosso site. TranslateShow \u003cbr\u003e\noriginal text. \u003cb\u003eBrazuka\u003c/b\u003e Webmaster | Cuiabá MT. brazukawebmaster.com.br.",
+      "htmlTitle": "\u003cb\u003eBrazuka\u003c/b\u003e Webmaster - Google+",
+      "kind": "customsearch#result",
+      "link": "https://plus.google.com/109327109465897592364",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "width": "63",
+            "height": "64",
+            "src": "https://encrypted-tbn1.gstatic.com/images?q\u003dtbn:ANd9GcQWSEqomxBw884MSTgSEz_i1V36JV9UUECWvh6Ib23jAUUUvZB_9jUPig"
+          }
+        ],
+        "metatags": [
+          {
+            "referrer": "origin",
+            "viewport": "width\u003ddevice-width,initial-scale\u003d1,minimum-scale\u003d1,maximum-scale\u003d1,user-scalable\u003dno,minimal-ui",
+            "apple-itunes-app": "app-id\u003d447119634, affiliate-data\u003dct\u003dSmartBanner\u0026pt\u003d9008",
+            "mobile-web-app-capable": "yes",
+            "apple-mobile-web-app-capable": "yes",
+            "application-name": "Google+",
+            "apple-mobile-web-app-title": "Google+",
+            "apple-mobile-web-app-status-bar-style": "black",
+            "msapplication-tap-highlight": "no",
+            "og:title": "Brazuka Webmaster - Google+",
+            "og:type": "profile",
+            "og:url": "https://plus.google.com/109327109465897592364",
+            "og:description": "A Google+ profile for Brazuka Webmaster",
+            "twitter:card": "summary"
+          }
+        ],
+        "hcard": [
+          {
+            "fn": "Brazuka Webmaster",
+            "url": "https://plus.google.com/109327109465897592364",
+            "photo": "https://lh3.googleusercontent.com/a-/AN66SAwnG26QY-YUoaA7D9ZXmVS6ZSI1htMu3oClF3zFig\u003ds640-rw-il"
+          }
+        ],
+        "person": [
+          {
+            "name": "Brazuka Webmaster",
+            "url": "https://plus.google.com/109327109465897592364",
+            "image": "https://lh3.googleusercontent.com/a-/AN66SAwnG26QY-YUoaA7D9ZXmVS6ZSI1htMu3oClF3zFig\u003ds640-rw-il"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://lh3.googleusercontent.com/a-/AN66SAwnG26QY-YUoaA7D9ZXmVS6ZSI1htMu3oClF3zFig\u003ds640-rw-il"
+          }
+        ]
+      },
+      "snippet": "Brazuka Webmaster. Public... 46w. Faça uma visita ao nosso site. TranslateShow \noriginal text. Brazuka Webmaster | Cuiabá MT. brazukawebmaster.com.br.",
+      "title": "Brazuka Webmaster - Google+"
+    },
+    {
+      "cacheId": "81BDAyeniRkJ",
+      "displayLink": "plus.google.com",
+      "formattedUrl": "https://plus.google.com/112243873558198245019",
+      "htmlFormattedUrl": "https://plus.google.com/112243873558198245019",
+      "htmlSnippet": "\u003cb\u003eBrazuka\u003c/b\u003e tube. Public... 24w \u0026middot; https://youtu.be/e-1m8A74VK8?t\u003d9 \u0026middot; Likes, Inscritos, \u003cbr\u003e\nVisualizações e Comentários Para Youtube - → Super Propaganda.",
+      "htmlTitle": "\u003cb\u003eBrazuka\u003c/b\u003e tube - Google+",
+      "kind": "customsearch#result",
+      "link": "https://plus.google.com/112243873558198245019",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "width": "224",
+            "height": "225",
+            "src": "https://encrypted-tbn0.gstatic.com/images?q\u003dtbn:ANd9GcRva5vtH3u9BhEOphHm4E4x3EZi7FaKIYi3GjzBi65E1FSSj5SDRtVulHc"
+          }
+        ],
+        "metatags": [
+          {
+            "referrer": "origin",
+            "viewport": "width\u003ddevice-width,initial-scale\u003d1,minimum-scale\u003d1,maximum-scale\u003d1,user-scalable\u003dno,minimal-ui",
+            "apple-itunes-app": "app-id\u003d447119634, affiliate-data\u003dct\u003dSmartBanner\u0026pt\u003d9008",
+            "mobile-web-app-capable": "yes",
+            "apple-mobile-web-app-capable": "yes",
+            "application-name": "Google+",
+            "apple-mobile-web-app-title": "Google+",
+            "apple-mobile-web-app-status-bar-style": "black",
+            "msapplication-tap-highlight": "no",
+            "og:title": "Brazuka tube - Google+",
+            "og:type": "profile",
+            "og:url": "https://plus.google.com/112243873558198245019",
+            "og:description": "A Google+ profile for Brazuka tube",
+            "twitter:card": "summary"
+          }
+        ],
+        "hcard": [
+          {
+            "fn": "Brazuka tube",
+            "url": "https://plus.google.com/112243873558198245019",
+            "photo": "https://lh3.googleusercontent.com/a-/AAuE7mDP9C6MssGCk9r9uvtJ7CTEyHMo2Vn-6VtjM1xOZA\u003ds640-rw-il"
+          }
+        ],
+        "person": [
+          {
+            "name": "Brazuka tube",
+            "url": "https://plus.google.com/112243873558198245019",
+            "image": "https://lh3.googleusercontent.com/a-/AAuE7mDP9C6MssGCk9r9uvtJ7CTEyHMo2Vn-6VtjM1xOZA\u003ds640-rw-il"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://lh3.googleusercontent.com/a-/AAuE7mDP9C6MssGCk9r9uvtJ7CTEyHMo2Vn-6VtjM1xOZA\u003ds640-rw-il"
+          }
+        ]
+      },
+      "snippet": "Brazuka tube. Public... 24w · https://youtu.be/e-1m8A74VK8?t\u003d9 · Likes, Inscritos, \nVisualizações e Comentários Para Youtube - → Super Propaganda.",
+      "title": "Brazuka tube - Google+"
+    },
+    {
+      "cacheId": "KQsc1aHbMBEJ",
+      "displayLink": "plus.google.com",
+      "formattedUrl": "https://plus.google.com/115033774819598033132",
+      "htmlFormattedUrl": "https://plus.google.com/115033774819598033132",
+      "htmlSnippet": "\u003cb\u003eBrazuka\u003c/b\u003e Music. Public... 2w. OUT NOW @ MITA (BR), Criminal Bass - Break My \u003cbr\u003e\nHeart. Photo. #BZM066: MITA (BR), Criminal Bass - Break My Heart.",
+      "htmlTitle": "\u003cb\u003eBrazuka\u003c/b\u003e Music - Google+",
+      "kind": "customsearch#result",
+      "link": "https://plus.google.com/115033774819598033132",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "width": "259",
+            "height": "194",
+            "src": "https://encrypted-tbn3.gstatic.com/images?q\u003dtbn:ANd9GcTLx51UzCheCDg5-VtxW-ZrICCfhlWTANpkkoqOEFTE4jhflV4HQK3OcYno"
+          }
+        ],
+        "metatags": [
+          {
+            "referrer": "origin",
+            "viewport": "width\u003ddevice-width,initial-scale\u003d1,minimum-scale\u003d1,maximum-scale\u003d1,user-scalable\u003dno,minimal-ui",
+            "apple-itunes-app": "app-id\u003d447119634, affiliate-data\u003dct\u003dSmartBanner\u0026pt\u003d9008",
+            "mobile-web-app-capable": "yes",
+            "apple-mobile-web-app-capable": "yes",
+            "application-name": "Google+",
+            "apple-mobile-web-app-title": "Google+",
+            "apple-mobile-web-app-status-bar-style": "black",
+            "msapplication-tap-highlight": "no",
+            "og:title": "Brazuka Music - Google+",
+            "og:type": "profile",
+            "og:url": "https://plus.google.com/115033774819598033132",
+            "og:description": "Selo Brasileiro, com intuito de lançar apenas faixas de Produtores Nacionais",
+            "twitter:card": "summary"
+          }
+        ],
+        "hcard": [
+          {
+            "fn": "Brazuka Music",
+            "url": "https://plus.google.com/115033774819598033132",
+            "photo": "https://lh3.googleusercontent.com/a-/AAuE7mC3qFKlGxHV-5xBu09P69YNlLolSF3l1vUXM_hH\u003ds640-rw-il"
+          }
+        ],
+        "person": [
+          {
+            "name": "Brazuka Music",
+            "url": "https://plus.google.com/115033774819598033132",
+            "image": "https://lh3.googleusercontent.com/a-/AAuE7mC3qFKlGxHV-5xBu09P69YNlLolSF3l1vUXM_hH\u003ds640-rw-il",
+            "description": "Selo Brasileiro, com intuito de lançar apenas faixas de Produtores Nacionais"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://i.ytimg.com/vi/WKAbBWIiX7c/hqdefault.jpg"
+          }
+        ]
+      },
+      "snippet": "Brazuka Music. Public... 2w. OUT NOW @ MITA (BR), Criminal Bass - Break My \nHeart. Photo. #BZM066: MITA (BR), Criminal Bass - Break My Heart.",
+      "title": "Brazuka Music - Google+"
+    },
+    {
+      "cacheId": "H5B6KaPi9N0J",
+      "displayLink": "feedproxy.google.com",
+      "formattedUrl": "feedproxy.google.com/.../Brazuka-zvanicna-lopta-SP-u-Brazilu-156896.html",
+      "htmlFormattedUrl": "feedproxy.google.com/.../\u003cb\u003eBrazuka\u003c/b\u003e-zvanicna-lopta-SP-u-Brazilu-156896.html",
+      "htmlSnippet": "3 сеп 2012 \u003cb\u003e...\u003c/b\u003e RIO DE ŽANEIRO - Utakmice Svjetskog prvenstva u fudbalu 2014. godine igarće \u003cbr\u003e\nse loptom \u0026quot;\u003cb\u003eBrazuka\u003c/b\u003e\u0026quot;, odlučili su navijači u Brazilu. Čast da\u0026nbsp;...",
+      "htmlTitle": "\u003cb\u003eBrazuka\u003c/b\u003e zvanična lopta SP u Brazilu",
+      "kind": "customsearch#result",
+      "link": "http://feedproxy.google.com/~r/NezavisneNovine/~3/iJ22ShK9O8g/Brazuka-zvanicna-lopta-SP-u-Brazilu-156896.html",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "width": "265",
+            "height": "190",
+            "src": "https://encrypted-tbn0.gstatic.com/images?q\u003dtbn:ANd9GcS9QIFiNjhd0HW3hQwOjYbHhtSHFvFkdJpFCHcHhrDoZl3v09yNBheTb-w"
+          }
+        ],
+        "metatags": [
+          {
+            "viewport": "width\u003ddevice-width, initial-scale\u003d1",
+            "author": "Nezavisne novine",
+            "dc.publisher": "nezavisne.com Nezavisne novine",
+            "alexaverifyid": "Cr0DQTlWcFkf6LkbhSCc3Gn48H8",
+            "msvalidate.01": "EEA0E4EF924434B853F2B4249F0D045A",
+            "fb:admins": "100001082703784",
+            "fb:app_id": "130508373628703",
+            "fb:pages": "113768761998175",
+            "og:site_name": "Nezavisne novine",
+            "og:title": "Brazuka zvanična lopta SP u Brazilu",
+            "og:url": "http://www.nezavisne.com/sport/fudbal/Brazuka-zvanicna-lopta-SP-u-Brazilu/156896",
+            "og:type": "article",
+            "og:image": "https://slika.nezavisne.rs/2012/09/555x333/20120903155312_156896.jpg",
+            "og:description": "RIO DE ŽANEIRO - Utakmice Svjetskog prvenstva u fudbalu 2014. godine igarće se loptom \"Brazuka\", odlučili su navijači u Brazilu.",
+            "article:publisher": "https://www.facebook.com/NezavisneNovine/",
+            "twitter:card": "summary_large_image",
+            "twitter:site": "@NezavisneBL",
+            "twitter:title": "Brazuka zvanična lopta SP u Brazilu",
+            "twitter:description": "RIO DE ŽANEIRO - Utakmice Svjetskog prvenstva u fudbalu 2014. godine igarće se loptom \"Brazuka\", odlučili su navijači u Brazilu.",
+            "twitter:creator": "@NezavisneBL",
+            "twitter:image": "https://slika.nezavisne.rs/2012/09/555x333/20120903155312_156896.jpg",
+            "twitter:domain": "nezavisne.com",
+            "msapplication-tilecolor": "#ffffff",
+            "msapplication-tileimage": "https://www.nezavisne.com/ms-icon-144x144.png",
+            "theme-color": "#ffffff",
+            "referrer": "unsafe-url",
+            "shareaholic:site_id": "1f90aa5a9f4797102c81efd47c1f668f",
+            "shareaholic:url": "http://www.nezavisne.com/sport/fudbal/Brazuka-zvanicna-lopta-SP-u-Brazilu/156896",
+            "shareaholic:image": "https://slika.nezavisne.rs/2012/09/555x333/20120903155312_156896.jpg",
+            "shareaholic:article_author_name": "Agencije",
+            "shareaholic:site_name": "Nezavisne novine",
+            "dc.description": "RIO DE ŽANEIRO - Utakmice Svjetskog prvenstva u fudbalu 2014. godine igarće se loptom \"Brazuka\", odlučili su navijači u Brazilu.",
+            "dc.creator": "Agencije",
+            "dc.title": "Brazuka zvanična lopta SP u Brazilu",
+            "dc.date.issued": "2012-09-03T15:53:12+02:00",
+            "date": "2012-09-03T15:53:12+02:00",
+            "article:author": "https://www.facebook.com/NezavisneNovine/"
+          }
+        ],
+        "sitenavigationelement": [
+          {
+            "url": "http://www.nezavisne.com/",
+            "logo": "http://cdns.nezavisne.rs/os/Nezavisne_novine_logo_25.png",
+            "name": "Naslovna"
+          }
+        ],
+        "newsarticle": [
+          {
+            "headline": "Brazuka zvanična lopta SP u Brazilu",
+            "image": "http://slika.nezavisne.rs/2012/09/750x450/20120903155312_156896.jpg",
+            "datepublished": "2012-09-03T15:53:12+02:00",
+            "datecreated": "2012-09-03T15:53:12+02:00",
+            "datemodified": "2012-09-03T15:53:12+02:00",
+            "articlebody": "RIO DE ŽANEIRO - Utakmice Svjetskog prvenstva u fudbalu 2014. godine igarće se loptom \"Brazuka\", odlučili su navijači u Brazilu. Čast da predstavi oficijelnu loptu predstojećeg svjetskog...",
+            "description": "RIO DE ŽANEIRO - Utakmice Svjetskog prvenstva u fudbalu 2014. godine igarće se loptom \"Brazuka\", odlučili su navijači u Brazilu."
+          }
+        ],
+        "imageobject": [
+          {
+            "url": "https://www.nezavisne.com/android-icon-192x192.png",
+            "width": "192",
+            "height": "192"
+          }
+        ],
+        "person": [
+          {
+            "name": "Agencije"
+          }
+        ],
+        "organization": [
+          {
+            "name": "Nezavisne novine"
+          }
+        ],
+        "webpage": [
+          {
+            "name": "Brazuka zvanična lopta SP u Brazilu",
+            "url": "http://www.nezavisne.com/sport/fudbal/Brazuka-zvanicna-lopta-SP-u-Brazilu/156896"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://slika.nezavisne.rs/2012/09/555x333/20120903155312_156896.jpg"
+          }
+        ]
+      },
+      "snippet": "3 сеп 2012 ... RIO DE ŽANEIRO - Utakmice Svjetskog prvenstva u fudbalu 2014. godine igarće \nse loptom \"Brazuka\", odlučili su navijači u Brazilu. Čast da ...",
+      "title": "Brazuka zvanična lopta SP u Brazilu"
+    },
+    {
+      "cacheId": "pCLdJtDAtv0J",
+      "displayLink": "play.google.com",
+      "formattedUrl": "https://play.google.com/store/apps/details?id...brazukatickets...",
+      "htmlFormattedUrl": "https://play.google.com/store/apps/details?id...\u003cb\u003ebrazuka\u003c/b\u003etickets...",
+      "htmlSnippet": "\u003cb\u003eBrazuka\u003c/b\u003e Organizer vem para facilitar a vida do organizador de eventos. Em sua \u003cbr\u003e\nprimeira versão, ele tem a possibilidade de escanear os ingressos dos clientes\u0026nbsp;...",
+      "htmlTitle": "\u003cb\u003eBrazuka\u003c/b\u003e Organizer - Apps on Google Play",
+      "kind": "customsearch#result",
+      "link": "https://play.google.com/store/apps/details?id\u003dcom.brazukatickets.organizer\u0026hl\u003den_US",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "width": "321",
+            "height": "157",
+            "src": "https://encrypted-tbn2.gstatic.com/images?q\u003dtbn:ANd9GcSKRjlujGrceDy7DkJ5imVSNZmvAS_Y0qAwHhjPqGye97rHev680KKPCw3Z"
+          }
+        ],
+        "softwareapplication": [
+          {
+            "operatingsystem": "ANDROID",
+            "name": "Brazuka Organizer",
+            "url": "https://play.google.com/store/apps/details/Brazuka_Organizer?id\u003dcom.brazukatickets.organizer\u0026hl\u003den_US",
+            "image": "https://lh3.googleusercontent.com/hgmblq4EpTs6F735fGR0chLEvCK-G8ytJvsdgiJDyXDLsB-4L4ATQSAxmFmWyMMOh5I",
+            "description": "Brazuka Organizer vem para facilitar a vida do organizador de eventos. Em sua primeira versão, ele tem a possibilidade de escanear os ingressos dos clientes na porta do evento, sincronizando...",
+            "contentrating": "Everyone",
+            "applicationcategory": "EVENTS"
+          }
+        ],
+        "metatags": [
+          {
+            "referrer": "origin",
+            "viewport": "width\u003ddevice-width, initial-scale\u003d1",
+            "mobile-web-app-capable": "yes",
+            "apple-mobile-web-app-capable": "yes",
+            "og:type": "website",
+            "og:url": "https://play.google.com/store/apps/details?id\u003dcom.brazukatickets.organizer\u0026hl\u003den_US",
+            "twitter:url": "https://play.google.com/store/apps/details?id\u003dcom.brazukatickets.organizer\u0026hl\u003den_US",
+            "og:title": "Brazuka Organizer - Apps on Google Play",
+            "twitter:title": "Brazuka Organizer - Apps on Google Play",
+            "og:image": "https://lh3.googleusercontent.com/m296qlWYAT9nko0Kw-mJpuuHlyJItGHQ3ARikmvj6_nT5VsPr1Ne16mgQJHamF7d8DJz",
+            "twitter:image": "https://lh3.googleusercontent.com/m296qlWYAT9nko0Kw-mJpuuHlyJItGHQ3ARikmvj6_nT5VsPr1Ne16mgQJHamF7d8DJz",
+            "appstore:developer_url": "http://www.brazukatickets.com",
+            "appstore:bundle_id": "com.brazukatickets.organizer",
+            "appstore:store_id": "com.brazukatickets.organizer"
+          }
+        ],
+        "offer": [
+          {
+            "url": "https://play.google.com/store/apps/details?id\u003dcom.brazukatickets.organizer\u0026rdid\u003dcom.brazukatickets.organizer\u0026feature\u003dmd\u0026offerId",
+            "price": "0"
+          },
+          {
+            "price": "0",
+            "pricecurrency": "USD",
+            "availability": "https://schema.org/InStock"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://lh3.googleusercontent.com/m296qlWYAT9nko0Kw-mJpuuHlyJItGHQ3ARikmvj6_nT5VsPr1Ne16mgQJHamF7d8DJz"
+          }
+        ]
+      },
+      "snippet": "Brazuka Organizer vem para facilitar a vida do organizador de eventos. Em sua \nprimeira versão, ele tem a possibilidade de escanear os ingressos dos clientes ...",
+      "title": "Brazuka Organizer - Apps on Google Play"
+    }
+  ],
+  "kind": "customsearch#search",
+  "queries": {
+    "request": [
+      {
+        "count": 10,
+        "cx": "003159383193150926956:c6m9ah2oy8e",
+        "inputEncoding": "utf8",
+        "outputEncoding": "utf8",
+        "safe": "off",
+        "searchTerms": "brazuka",
+        "startIndex": 1,
+        "title": "Google Custom Search - brazuka",
+        "totalResults": 1770
+      }
+    ],
+    "nextPage": [
+      {
+        "count": 10,
+        "cx": "003159383193150926956:c6m9ah2oy8e",
+        "inputEncoding": "utf8",
+        "outputEncoding": "utf8",
+        "safe": "off",
+        "searchTerms": "brazuka",
+        "startIndex": 11,
+        "title": "Google Custom Search - brazuka",
+        "totalResults": 1770
+      }
+    ]
+  },
+  "searchInformation": {
+    "formattedSearchTime": "0.15",
+    "formattedTotalResults": "1,770",
+    "searchTime": 0.15097,
+    "totalResults": 1770
+  },
+  "spelling": {
+    "correctedQuery": "brazuca",
+    "htmlCorrectedQuery": "\u003cb\u003e\u003ci\u003ebrazuca\u003c/i\u003e\u003c/b\u003e"
+  },
+  "url": {
+    "template": "https://www.googleapis.com/customsearch/v1?q\u003d{searchTerms}\u0026num\u003d{count?}\u0026start\u003d{startIndex?}\u0026lr\u003d{language?}\u0026safe\u003d{safe?}\u0026cx\u003d{cx?}\u0026sort\u003d{sort?}\u0026filter\u003d{filter?}\u0026gl\u003d{gl?}\u0026cr\u003d{cr?}\u0026googlehost\u003d{googleHost?}\u0026c2coff\u003d{disableCnTwTranslation?}\u0026hq\u003d{hq?}\u0026hl\u003d{hl?}\u0026siteSearch\u003d{siteSearch?}\u0026siteSearchFilter\u003d{siteSearchFilter?}\u0026exactTerms\u003d{exactTerms?}\u0026excludeTerms\u003d{excludeTerms?}\u0026linkSite\u003d{linkSite?}\u0026orTerms\u003d{orTerms?}\u0026relatedSite\u003d{relatedSite?}\u0026dateRestrict\u003d{dateRestrict?}\u0026lowRange\u003d{lowRange?}\u0026highRange\u003d{highRange?}\u0026searchType\u003d{searchType}\u0026fileType\u003d{fileType?}\u0026rights\u003d{rights?}\u0026imgSize\u003d{imgSize?}\u0026imgType\u003d{imgType?}\u0026imgColorType\u003d{imgColorType?}\u0026imgDominantColor\u003d{imgDominantColor?}\u0026alt\u003djson",
+    "type": "application/json"
+  }
+}

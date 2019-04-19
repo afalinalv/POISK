@@ -1,0 +1,850 @@
+{
+  "context": {
+    "title": "Google"
+  },
+  "items": [
+    {
+      "cacheId": "uY_y1d0b-iAJ",
+      "displayLink": "plus.google.com",
+      "formattedUrl": "https://plus.google.com/114975749432116114667/.../KDo5RWu19iD",
+      "htmlFormattedUrl": "https://plus.google.com/114975749432116114667/.../KDo5RWu19iD",
+      "htmlSnippet": "19 апр 2015 \u003cb\u003e...\u003c/b\u003e \u003cb\u003eПутин дурак\u003c/b\u003e или падлюка? ... что если он верит, что россиянам живется \u003cbr\u003e\nхорошо, то он дурак. ... Путин вор и убийца Русского народа.",
+      "htmlTitle": "\u003cb\u003eПутин дурак\u003c/b\u003e или падлюка? - YouTube",
+      "kind": "customsearch#result",
+      "link": "https://plus.google.com/114975749432116114667/posts/KDo5RWu19iD",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "width": "259",
+            "height": "194",
+            "src": "https://encrypted-tbn3.gstatic.com/images?q\u003dtbn:ANd9GcSoGYUcFKgiY6tTspLthqboT2V_x34zJ9KO-Xv0UkcmPzj3qpeSbzzAr4Q"
+          }
+        ],
+        "metatags": [
+          {
+            "title": "Путин дурак или падлюка?",
+            "theme-color": "#ff0000",
+            "og:site_name": "YouTube",
+            "og:url": "https://www.youtube.com/watch?v\u003dWM3wmBeTngc",
+            "og:title": "Путин дурак или падлюка?",
+            "og:image": "https://i.ytimg.com/vi/WM3wmBeTngc/hqdefault.jpg",
+            "og:description": "Герой Украины Надежда Савченко в глаза сказала путину : \" президент россии дурак или падлюка? Потому что если он верит, что россиянам живется хорошо, то он д...",
+            "al:ios:app_store_id": "544007664",
+            "al:ios:app_name": "YouTube",
+            "al:ios:url": "vnd.youtube://www.youtube.com/watch?v\u003dWM3wmBeTngc\u0026feature\u003dapplinks",
+            "al:android:url": "vnd.youtube://www.youtube.com/watch?v\u003dWM3wmBeTngc\u0026feature\u003dapplinks",
+            "al:android:app_name": "YouTube",
+            "al:android:package": "com.google.android.youtube",
+            "al:web:url": "https://www.youtube.com/watch?v\u003dWM3wmBeTngc\u0026feature\u003dapplinks",
+            "og:type": "video.other",
+            "og:video:url": "https://www.youtube.com/embed/WM3wmBeTngc",
+            "og:video:secure_url": "https://www.youtube.com/embed/WM3wmBeTngc",
+            "og:video:type": "text/html",
+            "og:video:width": "640",
+            "og:video:height": "360",
+            "fb:app_id": "87741124305",
+            "twitter:card": "player",
+            "twitter:site": "@youtube",
+            "twitter:url": "https://www.youtube.com/watch?v\u003dWM3wmBeTngc",
+            "twitter:title": "Путин дурак или падлюка?",
+            "twitter:description": "Герой Украины Надежда Савченко в глаза сказала путину : \" президент россии дурак или падлюка? Потому что если он верит, что россиянам живется хорошо, то он д...",
+            "twitter:image": "https://i.ytimg.com/vi/WM3wmBeTngc/hqdefault.jpg",
+            "twitter:app:name:iphone": "YouTube",
+            "twitter:app:id:iphone": "544007664",
+            "twitter:app:name:ipad": "YouTube",
+            "twitter:app:id:ipad": "544007664",
+            "twitter:app:url:iphone": "vnd.youtube://www.youtube.com/watch?v\u003dWM3wmBeTngc\u0026feature\u003dapplinks",
+            "twitter:app:url:ipad": "vnd.youtube://www.youtube.com/watch?v\u003dWM3wmBeTngc\u0026feature\u003dapplinks",
+            "twitter:app:name:googleplay": "YouTube",
+            "twitter:app:id:googleplay": "com.google.android.youtube",
+            "twitter:app:url:googleplay": "https://www.youtube.com/watch?v\u003dWM3wmBeTngc",
+            "twitter:player": "https://www.youtube.com/embed/WM3wmBeTngc",
+            "twitter:player:width": "640",
+            "twitter:player:height": "360"
+          }
+        ],
+        "videoobject": [
+          {
+            "url": "https://www.youtube.com/watch?v\u003dWM3wmBeTngc",
+            "name": "Путин дурак или падлюка?",
+            "description": "Герой Украины Надежда Савченко в глаза сказала путину : \" президент россии дурак или падлюка? Потому что...",
+            "paid": "False",
+            "channelid": "UCffkM3famJq5F0UYpf-ERIg",
+            "videoid": "WM3wmBeTngc",
+            "duration": "PT1M5S",
+            "unlisted": "False",
+            "thumbnailurl": "https://i.ytimg.com/vi/WM3wmBeTngc/hqdefault.jpg",
+            "embedurl": "https://www.youtube.com/embed/WM3wmBeTngc",
+            "playertype": "HTML5 Flash",
+            "width": "640",
+            "height": "360",
+            "isfamilyfriendly": "True",
+            "regionsallowed": "AD,AE,AF,AG,AI,AL,AM,AO,AQ,AR,AS,AT,AU,AW,AX,AZ,BA,BB,BD,BE,BF,BG,BH,BI,BJ,BL,BM,BN,BO,BQ,BR,BS,BT,BV,BW,BY,BZ,CA,CC,CD,CF,CG,CH,CI,CK,CL,CM,CN,CO,CR,CU,CV,CW,CX,CY,CZ,DE,DJ,DK,DM,DO,DZ,EC,EE,EG,EH...",
+            "interactioncount": "1374",
+            "datepublished": "2015-04-19",
+            "genre": "News \u0026 Politics"
+          }
+        ],
+        "imageobject": [
+          {
+            "url": "https://i.ytimg.com/vi/WM3wmBeTngc/hqdefault.jpg",
+            "width": "480",
+            "height": "360"
+          }
+        ],
+        "person": [
+          {
+            "url": "http://www.youtube.com/user/sanya201111"
+          },
+          {
+            "url": "https://plus.google.com/111538297065486104997"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://i.ytimg.com/vi/WM3wmBeTngc/hqdefault.jpg"
+          }
+        ]
+      },
+      "snippet": "19 апр 2015 ... Путин дурак или падлюка? ... что если он верит, что россиянам живется \nхорошо, то он дурак. ... Путин вор и убийца Русского народа.",
+      "title": "Путин дурак или падлюка? - YouTube"
+    },
+    {
+      "cacheId": "Knc0BABXVJ4J",
+      "displayLink": "plus.google.com",
+      "formattedUrl": "https://plus.google.com/117143891151556448795/.../57upfPrj6H8",
+      "htmlFormattedUrl": "https://plus.google.com/117143891151556448795/.../57upfPrj6H8",
+      "htmlSnippet": "25 апр 2015 \u003cb\u003e...\u003c/b\u003e Савик Шустер сделал подборку высказываний \u003cb\u003eПутина\u003c/b\u003e. Надежде Савченко, \u003cbr\u003e\nперед судом, дали посмотреть прессконференцию\u0026nbsp;...",
+      "htmlTitle": "Надежда Савченко: \u003cb\u003eПутин Дурак\u003c/b\u003e, или Падлюка? Шустер LIVE 17 ...",
+      "kind": "customsearch#result",
+      "link": "https://plus.google.com/117143891151556448795/posts/57upfPrj6H8",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "width": "259",
+            "height": "194",
+            "src": "https://encrypted-tbn0.gstatic.com/images?q\u003dtbn:ANd9GcT2hnsfKcQUoqDKt-3Zi6CNqCrmRs8DfsA-SfjVC3UnT5kLvNXCZmyMDqxF"
+          }
+        ],
+        "metatags": [
+          {
+            "title": "Надежда Савченко: Путин Дурак, или Падлюка? Шустер LIVE 17 04 2015",
+            "theme-color": "#ff0000",
+            "og:site_name": "YouTube",
+            "og:url": "https://www.youtube.com/watch?v\u003d_V22amry8Uw",
+            "og:title": "Надежда Савченко: Путин Дурак, или Падлюка? Шустер LIVE 17 04 2015",
+            "og:image": "https://i.ytimg.com/vi/_V22amry8Uw/hqdefault.jpg",
+            "og:description": "Савик Шустер сделал подборку высказываний Путина. Надежде Савченко, перед судом, дали посмотреть прессконференцию Путина-царя с российским народом. В зале су...",
+            "al:ios:app_store_id": "544007664",
+            "al:ios:app_name": "YouTube",
+            "al:ios:url": "vnd.youtube://www.youtube.com/watch?v\u003d_V22amry8Uw\u0026feature\u003dapplinks",
+            "al:android:url": "vnd.youtube://www.youtube.com/watch?v\u003d_V22amry8Uw\u0026feature\u003dapplinks",
+            "al:android:app_name": "YouTube",
+            "al:android:package": "com.google.android.youtube",
+            "al:web:url": "https://www.youtube.com/watch?v\u003d_V22amry8Uw\u0026feature\u003dapplinks",
+            "og:type": "video.other",
+            "og:video:url": "https://www.youtube.com/embed/_V22amry8Uw",
+            "og:video:secure_url": "https://www.youtube.com/embed/_V22amry8Uw",
+            "og:video:type": "text/html",
+            "og:video:width": "640",
+            "og:video:height": "360",
+            "og:video:tag": "Надежда Савченко спросила у россиян Путин дурак или падлюка?",
+            "fb:app_id": "87741124305",
+            "twitter:card": "player",
+            "twitter:site": "@youtube",
+            "twitter:url": "https://www.youtube.com/watch?v\u003d_V22amry8Uw",
+            "twitter:title": "Надежда Савченко: Путин Дурак, или Падлюка? Шустер LIVE 17 04 2015",
+            "twitter:description": "Савик Шустер сделал подборку высказываний Путина. Надежде Савченко, перед судом, дали посмотреть прессконференцию Путина-царя с российским народом. В зале су...",
+            "twitter:image": "https://i.ytimg.com/vi/_V22amry8Uw/hqdefault.jpg",
+            "twitter:app:name:iphone": "YouTube",
+            "twitter:app:id:iphone": "544007664",
+            "twitter:app:name:ipad": "YouTube",
+            "twitter:app:id:ipad": "544007664",
+            "twitter:app:url:iphone": "vnd.youtube://www.youtube.com/watch?v\u003d_V22amry8Uw\u0026feature\u003dapplinks",
+            "twitter:app:url:ipad": "vnd.youtube://www.youtube.com/watch?v\u003d_V22amry8Uw\u0026feature\u003dapplinks",
+            "twitter:app:name:googleplay": "YouTube",
+            "twitter:app:id:googleplay": "com.google.android.youtube",
+            "twitter:app:url:googleplay": "https://www.youtube.com/watch?v\u003d_V22amry8Uw",
+            "twitter:player": "https://www.youtube.com/embed/_V22amry8Uw",
+            "twitter:player:width": "640",
+            "twitter:player:height": "360"
+          }
+        ],
+        "videoobject": [
+          {
+            "url": "https://www.youtube.com/watch?v\u003d_V22amry8Uw",
+            "name": "Надежда Савченко: Путин Дурак, или Падлюка? Шустер LIVE 17 04 2015",
+            "description": "Савик Шустер сделал подборку высказываний Путина. Надежде Савченко, перед судом, дали посмотреть прессконф...",
+            "paid": "False",
+            "channelid": "UCY5JvJjobom7rD_oZm_ZvRA",
+            "videoid": "_V22amry8Uw",
+            "duration": "PT8M50S",
+            "unlisted": "False",
+            "thumbnailurl": "https://i.ytimg.com/vi/_V22amry8Uw/hqdefault.jpg",
+            "embedurl": "https://www.youtube.com/embed/_V22amry8Uw",
+            "playertype": "HTML5 Flash",
+            "width": "640",
+            "height": "360",
+            "isfamilyfriendly": "True",
+            "regionsallowed": "AD,AE,AF,AG,AI,AL,AM,AO,AQ,AR,AS,AT,AU,AW,AX,AZ,BA,BB,BD,BE,BF,BG,BH,BI,BJ,BL,BM,BN,BO,BQ,BR,BS,BT,BV,BW,BY,BZ,CA,CC,CD,CF,CG,CH,CI,CK,CL,CM,CN,CO,CR,CU,CV,CW,CX,CY,CZ,DE,DJ,DK,DM,DO,DZ,EC,EE,EG,EH...",
+            "interactioncount": "18755",
+            "datepublished": "2015-04-25",
+            "genre": "People \u0026 Blogs"
+          }
+        ],
+        "imageobject": [
+          {
+            "url": "https://i.ytimg.com/vi/_V22amry8Uw/hqdefault.jpg",
+            "width": "480",
+            "height": "360"
+          }
+        ],
+        "person": [
+          {
+            "url": "http://www.youtube.com/channel/UCY5JvJjobom7rD_oZm_ZvRA"
+          },
+          {
+            "url": "https://plus.google.com/110386537727779628940"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://i.ytimg.com/vi/_V22amry8Uw/hqdefault.jpg"
+          }
+        ]
+      },
+      "snippet": "25 апр 2015 ... Савик Шустер сделал подборку высказываний Путина. Надежде Савченко, \nперед судом, дали посмотреть прессконференцию ...",
+      "title": "Надежда Савченко: Путин Дурак, или Падлюка? Шустер LIVE 17 ..."
+    },
+    {
+      "cacheId": "EXz4Lo3PA5oJ",
+      "displayLink": "plus.google.com",
+      "formattedUrl": "https://plus.google.com/105907242469104692785/.../G2DfHpcMibp",
+      "htmlFormattedUrl": "https://plus.google.com/105907242469104692785/.../G2DfHpcMibp",
+      "htmlSnippet": "8 апр 2014 \u003cb\u003e...\u003c/b\u003e 9 апреля, кандидат в Президенты в Луганске, рассказал, что думает о \u003cbr\u003e\nбудущем Луганщины, поделился предположениями\u0026nbsp;...",
+      "htmlTitle": "Ляшко: \u003cb\u003eПутин\u003c/b\u003e не \u003cb\u003eдурак\u003c/b\u003e! Тимошенко договаривается с ...",
+      "kind": "customsearch#result",
+      "link": "https://plus.google.com/105907242469104692785/posts/G2DfHpcMibp",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "width": "299",
+            "height": "168",
+            "src": "https://encrypted-tbn2.gstatic.com/images?q\u003dtbn:ANd9GcRowrxx5B-03H8xrx_Ybm6hbFWp0FwYrWZDR1axTxo4K8yPA8sMxQAoLcFS"
+          }
+        ],
+        "metatags": [
+          {
+            "title": "Ляшко: Путин не дурак! Тимошенко договаривается с Ефремовым. Луганск",
+            "theme-color": "#ff0000",
+            "og:site_name": "YouTube",
+            "og:url": "https://www.youtube.com/watch?v\u003d3NQrmRh5org",
+            "og:title": "Ляшко: Путин не дурак! Тимошенко договаривается с Ефремовым. Луганск",
+            "og:image": "https://i.ytimg.com/vi/3NQrmRh5org/maxresdefault.jpg",
+            "og:description": "9 апреля, кандидат в Президенты в Луганске, рассказал, что думает о будущем Луганщины, поделился предположениями относительно фамилий организаторов террорист...",
+            "al:ios:app_store_id": "544007664",
+            "al:ios:app_name": "YouTube",
+            "al:ios:url": "vnd.youtube://www.youtube.com/watch?v\u003d3NQrmRh5org\u0026feature\u003dapplinks",
+            "al:android:url": "vnd.youtube://www.youtube.com/watch?v\u003d3NQrmRh5org\u0026feature\u003dapplinks",
+            "al:android:app_name": "YouTube",
+            "al:android:package": "com.google.android.youtube",
+            "al:web:url": "https://www.youtube.com/watch?v\u003d3NQrmRh5org\u0026feature\u003dapplinks",
+            "og:type": "video.other",
+            "og:video:url": "https://www.youtube.com/embed/3NQrmRh5org",
+            "og:video:secure_url": "https://www.youtube.com/embed/3NQrmRh5org",
+            "og:video:type": "text/html",
+            "og:video:width": "1280",
+            "og:video:height": "720",
+            "og:video:tag": "Луганск",
+            "fb:app_id": "87741124305",
+            "twitter:card": "player",
+            "twitter:site": "@youtube",
+            "twitter:url": "https://www.youtube.com/watch?v\u003d3NQrmRh5org",
+            "twitter:title": "Ляшко: Путин не дурак! Тимошенко договаривается с Ефремовым. Луганск",
+            "twitter:description": "9 апреля, кандидат в Президенты в Луганске, рассказал, что думает о будущем Луганщины, поделился предположениями относительно фамилий организаторов террорист...",
+            "twitter:image": "https://i.ytimg.com/vi/3NQrmRh5org/maxresdefault.jpg",
+            "twitter:app:name:iphone": "YouTube",
+            "twitter:app:id:iphone": "544007664"
+          }
+        ],
+        "videoobject": [
+          {
+            "url": "https://www.youtube.com/watch?v\u003d3NQrmRh5org",
+            "name": "Ляшко: Путин не дурак! Тимошенко договаривается с Ефремовым. Луганск",
+            "description": "9 апреля, кандидат в Президенты в Луганске, рассказал, что думает о будущем Луганщины, поделился предположен...",
+            "paid": "False",
+            "channelid": "UCvPg48aJm8Wz5AIYl2vlRpg",
+            "videoid": "3NQrmRh5org",
+            "duration": "PT2M46S",
+            "unlisted": "False",
+            "thumbnailurl": "https://i.ytimg.com/vi/3NQrmRh5org/maxresdefault.jpg",
+            "embedurl": "https://www.youtube.com/embed/3NQrmRh5org",
+            "playertype": "HTML5 Flash",
+            "width": "1280",
+            "height": "720",
+            "isfamilyfriendly": "True",
+            "regionsallowed": "AD,AE,AF,AG,AI,AL,AM,AO,AQ,AR,AS,AT,AU,AW,AX,AZ,BA,BB,BD,BE,BF,BG,BH,BI,BJ,BL,BM,BN,BO,BQ,BR,BS,BT,BV,BW,BY,BZ,CA,CC,CD,CF,CG,CH,CI,CK,CL,CM,CN,CO,CR,CU,CV,CW,CX,CY,CZ,DE,DJ,DK,DM,DO,DZ,EC,EE,EG,EH...",
+            "interactioncount": "53506",
+            "datepublished": "2014-04-08",
+            "genre": "News \u0026 Politics"
+          }
+        ],
+        "imageobject": [
+          {
+            "url": "https://i.ytimg.com/vi/3NQrmRh5org/maxresdefault.jpg",
+            "width": "1280",
+            "height": "720"
+          }
+        ],
+        "person": [
+          {
+            "url": "http://www.youtube.com/user/TVgolosnaroda"
+          },
+          {
+            "url": "https://plus.google.com/114508677722799399636"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://i.ytimg.com/vi/3NQrmRh5org/maxresdefault.jpg"
+          }
+        ]
+      },
+      "snippet": "8 апр 2014 ... 9 апреля, кандидат в Президенты в Луганске, рассказал, что думает о \nбудущем Луганщины, поделился предположениями ...",
+      "title": "Ляшко: Путин не дурак! Тимошенко договаривается с ..."
+    },
+    {
+      "displayLink": "sites.google.com",
+      "formattedUrl": "https://sites.google.com/site/putindurak223",
+      "htmlFormattedUrl": "https://sites.google.com/site/putindurak223",
+      "htmlSnippet": "По словам чиновника, такие выводы он сделал из фильма, который \u003cbr\u003e\nподготовило российское телевидение к очередной годовщине так \u003cbr\u003e\nназываемой\u0026nbsp;...",
+      "htmlTitle": "\u003cb\u003eПутин дурак\u003c/b\u003e",
+      "kind": "customsearch#result",
+      "link": "https://sites.google.com/site/putindurak223",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "width": "283",
+            "height": "178",
+            "src": "https://encrypted-tbn1.gstatic.com/images?q\u003dtbn:ANd9GcRlM_wKYXOcPDIN9C2ZwCBOIchwR5UGdCq82sOW18m8Z7r0Xy2ZV2epnpo"
+          }
+        ],
+        "metatags": [
+          {
+            "title": "Путин дурак",
+            "og:title": "Путин дурак",
+            "og:image": "https://sites.google.com/site/putindurak223/_/rsrc/1525678642398/home/%D1%81%D0%BA%D0%B0%D1%87%D0%B0%D0%BD%D0%BD%D1%8B%D0%B5%20%D1%84%D0%B0%D0%B9%D0%BB%D1%8B%20%287%29.jpg"
+          }
+        ],
+        "webpage": [
+          {
+            "name": "Путин дурак",
+            "image": "https://sites.google.com/site/putindurak223/_/rsrc/1525678642398/home/%D1%81%D0%BA%D0%B0%D1%87%D0%B0%D0%BD%D0%BD%D1%8B%D0%B5%20%D1%84%D0%B0%D0%B9%D0%BB%D1%8B%20%287%29.jpg"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://sites.google.com/site/putindurak223/_/rsrc/1525678642398/home/%D1%81%D0%BA%D0%B0%D1%87%D0%B0%D0%BD%D0%BD%D1%8B%D0%B5%20%D1%84%D0%B0%D0%B9%D0%BB%D1%8B%20%287%29.jpg"
+          }
+        ]
+      },
+      "snippet": "По словам чиновника, такие выводы он сделал из фильма, который \nподготовило российское телевидение к очередной годовщине так \nназываемой ...",
+      "title": "Путин дурак"
+    },
+    {
+      "cacheId": "St7zo7gRYLsJ",
+      "displayLink": "plus.google.com",
+      "formattedUrl": "https://plus.google.com/109813107429513830927/.../WPAgJfM6R81",
+      "htmlFormattedUrl": "https://plus.google.com/109813107429513830927/.../WPAgJfM6R81",
+      "htmlSnippet": "26 мар 2015 \u003cb\u003e...\u003c/b\u003e Виват Империя!” – мы отчеканим звонко, Еще один боец взял в руки автомат! \u003cbr\u003e\nЕще одна жена получит похоронку Еще один \u003cb\u003eдурак\u003c/b\u003e\u0026nbsp;...",
+      "htmlTitle": "\u0026quot;ГимноВороссии\u0026quot; — Сепаратисты, Пyтин дал приказ! — Саблич ...",
+      "kind": "customsearch#result",
+      "link": "https://plus.google.com/109813107429513830927/posts/WPAgJfM6R81",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "width": "259",
+            "height": "194",
+            "src": "https://encrypted-tbn0.gstatic.com/images?q\u003dtbn:ANd9GcTZDM0nFiuaRWJx7XcF0cBZzToOA7tDqGc7V9MkquHyiAu0InwnKcXoNVli"
+          }
+        ],
+        "metatags": [
+          {
+            "title": "\"ГимноВороссии\" — Сепаратисты, Пyтин дал приказ! — Саблич",
+            "theme-color": "#ff0000",
+            "og:site_name": "YouTube",
+            "og:url": "https://www.youtube.com/watch?v\u003d1Q77Sw17yts",
+            "og:title": "\"ГимноВороссии\" — Сепаратисты, Пyтин дал приказ! — Саблич",
+            "og:image": "https://i.ytimg.com/vi/1Q77Sw17yts/hqdefault.jpg",
+            "og:description": "“Виват Империя!” – мы отчеканим звонко, Еще один боец взял в руки автомат! Еще одна жена получит похоронку Еще один дурак достал путёвку в ад. Сепаратисты, П...",
+            "al:ios:app_store_id": "544007664",
+            "al:ios:app_name": "YouTube",
+            "al:ios:url": "vnd.youtube://www.youtube.com/watch?v\u003d1Q77Sw17yts\u0026feature\u003dapplinks",
+            "al:android:url": "vnd.youtube://www.youtube.com/watch?v\u003d1Q77Sw17yts\u0026feature\u003dapplinks",
+            "al:android:app_name": "YouTube",
+            "al:android:package": "com.google.android.youtube",
+            "al:web:url": "https://www.youtube.com/watch?v\u003d1Q77Sw17yts\u0026feature\u003dapplinks",
+            "og:type": "video.other",
+            "og:video:url": "https://www.youtube.com/embed/1Q77Sw17yts",
+            "og:video:secure_url": "https://www.youtube.com/embed/1Q77Sw17yts",
+            "og:video:type": "text/html",
+            "og:video:width": "1280",
+            "og:video:height": "720",
+            "og:video:tag": "Сепаратисты",
+            "fb:app_id": "87741124305",
+            "twitter:card": "player",
+            "twitter:site": "@youtube",
+            "twitter:url": "https://www.youtube.com/watch?v\u003d1Q77Sw17yts",
+            "twitter:title": "\"ГимноВороссии\" — Сепаратисты, Пyтин дал приказ! — Саблич",
+            "twitter:description": "“Виват Империя!” – мы отчеканим звонко, Еще один боец взял в руки автомат! Еще одна жена получит похоронку Еще один дурак достал путёвку в ад. Сепаратисты, П...",
+            "twitter:image": "https://i.ytimg.com/vi/1Q77Sw17yts/hqdefault.jpg",
+            "twitter:app:name:iphone": "YouTube",
+            "twitter:app:id:iphone": "544007664",
+            "twitter:app:name:ipad": "YouTube"
+          }
+        ],
+        "videoobject": [
+          {
+            "url": "https://www.youtube.com/watch?v\u003d1Q77Sw17yts",
+            "name": "\"ГимноВороссии\" — Сепаратисты, Пyтин дал приказ! — Саблич",
+            "description": "“Виват Империя!” – мы отчеканим звонко, Еще один боец взял в руки автомат! Еще одна жена получит похоронку...",
+            "paid": "False",
+            "channelid": "UCQlmC9TH3gOrVXmJMZoAu8Q",
+            "videoid": "1Q77Sw17yts",
+            "duration": "PT2M57S",
+            "unlisted": "False",
+            "thumbnailurl": "https://i.ytimg.com/vi/1Q77Sw17yts/hqdefault.jpg",
+            "embedurl": "https://www.youtube.com/embed/1Q77Sw17yts",
+            "playertype": "HTML5 Flash",
+            "width": "1280",
+            "height": "720",
+            "isfamilyfriendly": "True",
+            "regionsallowed": "AD,AE,AF,AG,AI,AL,AM,AO,AQ,AR,AS,AT,AU,AW,AX,AZ,BA,BB,BD,BE,BF,BG,BH,BI,BJ,BL,BM,BN,BO,BQ,BR,BS,BT,BV,BW,BY,BZ,CA,CC,CD,CF,CG,CH,CI,CK,CL,CM,CN,CO,CR,CU,CV,CW,CX,CY,CZ,DE,DJ,DK,DM,DO,DZ,EC,EE,EG,EH...",
+            "interactioncount": "287112",
+            "datepublished": "2015-03-26",
+            "genre": "Comedy"
+          }
+        ],
+        "imageobject": [
+          {
+            "url": "https://i.ytimg.com/vi/1Q77Sw17yts/hqdefault.jpg",
+            "width": "480",
+            "height": "360"
+          }
+        ],
+        "person": [
+          {
+            "url": "http://www.youtube.com/channel/UCQlmC9TH3gOrVXmJMZoAu8Q"
+          },
+          {
+            "url": "https://plus.google.com/113960313948204125492"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://i.ytimg.com/vi/1Q77Sw17yts/hqdefault.jpg"
+          }
+        ]
+      },
+      "snippet": "26 мар 2015 ... Виват Империя!” – мы отчеканим звонко, Еще один боец взял в руки автомат! \nЕще одна жена получит похоронку Еще один дурак ...",
+      "title": "\"ГимноВороссии\" — Сепаратисты, Пyтин дал приказ! — Саблич ..."
+    },
+    {
+      "cacheId": "o_VCQHKLulEJ",
+      "displayLink": "feedproxy.google.com",
+      "formattedUrl": "feedproxy.google.com/.../167193-eksklyuziv-goldenfront-intervyu-s- dzheffom-klarkom-putin-sovsem-ne-durak-ne-slozhno-uvidet-kuda...",
+      "htmlFormattedUrl": "feedproxy.google.com/.../167193-eksklyuziv-goldenfront-intervyu-s- dzheffom-klarkom-putin-sovsem-ne-durak-ne-slozhno-uvidet-kuda...",
+      "htmlSnippet": "21 фев 2013 \u003cb\u003e...\u003c/b\u003e Эксклюзив Goldenfront: интервью с Джеффом Кларком: «\u003cb\u003eПутин\u003c/b\u003e совсем не \u003cbr\u003e\n\u003cb\u003eдурак\u003c/b\u003e – не сложно увидеть, куда мы катимся» 21-02-2013\u0026nbsp;...",
+      "htmlTitle": "Эксклюзив Goldenfront: интервью с Джеффом Кларком: «\u003cb\u003eПутин\u003c/b\u003e ...",
+      "kind": "customsearch#result",
+      "link": "http://feedproxy.google.com/~r/crisisdigest/~3/0Psd1xlJvdA/167193-eksklyuziv-goldenfront-intervyu-s-dzheffom-klarkom-putin-sovsem-ne-durak-ne-slozhno-uvidet-kuda-my-katimsya.html",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "width": "225",
+            "height": "225",
+            "src": "https://encrypted-tbn0.gstatic.com/images?q\u003dtbn:ANd9GcS95ySMQwsPQMWVFI-XscLrdqrvFkSQPkePJumLuwyXLjxzhBykQWqZGH4"
+          }
+        ],
+        "metatags": [
+          {
+            "sprypayurlchecker": "888ede741ff190cbbcd1784e9c41f200",
+            "yandex-verification": "b394479d03636f11",
+            "og:site_name": "ОКО ПЛАНЕТЫ информационно-аналитический портал",
+            "og:type": "article",
+            "og:title": "Эксклюзив Goldenfront: интервью с Джеффом Кларком: «Путин совсем не дурак – не сложно увидеть, куда мы катимся»",
+            "og:url": "https://oko-planet.su/finances/financesday/167193-eksklyuziv-goldenfront-intervyu-s-dzheffom-klarkom-putin-sovsem-ne-durak-ne-slozhno-uvidet-kuda-my-katimsya.html",
+            "og:image": "http://oko-planet.su/uploads/posts/2013-02/1361434757_main_6386.jpeg"
+          }
+        ],
+        "breadcrumb": [
+          {
+            "url": "ОКО ПЛАНЕТЫ",
+            "title": "ОКО ПЛАНЕТЫ"
+          },
+          {
+            "url": "Финансы и кризис",
+            "title": "Финансы и кризис"
+          },
+          {
+            "url": "Новость дня",
+            "title": "Новость дня"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "http://oko-planet.su/uploads/posts/2013-02/1361434757_main_6386.jpeg"
+          }
+        ]
+      },
+      "snippet": "21 фев 2013 ... Эксклюзив Goldenfront: интервью с Джеффом Кларком: «Путин совсем не \nдурак – не сложно увидеть, куда мы катимся» 21-02-2013 ...",
+      "title": "Эксклюзив Goldenfront: интервью с Джеффом Кларком: «Путин ..."
+    },
+    {
+      "cacheId": "HGftCUpi9igJ",
+      "displayLink": "feedproxy.google.com",
+      "formattedUrl": "feedproxy.google.com/~r/ura/QDRg/~3/.../1036274640",
+      "htmlFormattedUrl": "feedproxy.google.com/~r/ura/QDRg/~3/.../1036274640",
+      "htmlSnippet": "21 апр 2018 \u003cb\u003e...\u003c/b\u003e ... звонке российского президента Владимира \u003cb\u003eПутина\u003c/b\u003e. Только на URA. ... \u003cbr\u003e\nПолитологи сходятся во мнении, что «старый \u003cb\u003eдурак\u003c/b\u003e, теряющий\u0026nbsp;...",
+      "htmlTitle": "Трамп — это «\u003cb\u003eдурак\u003c/b\u003e, теряющий нить разговора», или хитрый ...",
+      "kind": "customsearch#result",
+      "link": "http://feedproxy.google.com/~r/ura/QDRg/~3/2moRmpMH9z0/1036274640",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "width": "275",
+            "height": "183",
+            "src": "https://encrypted-tbn2.gstatic.com/images?q\u003dtbn:ANd9GcRgWQZpdHH_At4ekBXNZgcqtem0eyYioT3eNC94zbjR8AwNvI9kzJc5OL4"
+          }
+        ],
+        "metatags": [
+          {
+            "viewport": "width\u003d768, user-scalable\u003d1",
+            "og:type": "article",
+            "og:title": "Трамп — это «дурак, теряющий нить разговора», или хитрый стратег? Психологи: как найти логику в поступках президента США и о чем говорит его внешний вид — URA.RU",
+            "og:url": "https://ura.news/articles/1036274640",
+            "og:description": "Психологи: как найти логику в поступках президента США и о чем говорит его внешний вид. Только на URA.RU",
+            "fb:app_id": "204956386294609",
+            "twitter:card": "summary_large_image",
+            "twitter:site": "@ura_ru",
+            "twitter:creator": "@ura_ru",
+            "twitter:title": "Трамп — это «дурак, теряющий нить разговора», или хитрый стратег? Психологи: как найти логику в поступках президента США и о чем говорит его внешний вид — URA.RU",
+            "twitter:description": "Психологи: как найти логику в поступках президента США и о чем говорит его внешний вид. Только на URA.RU",
+            "og:image": "https://static.ura.news/images/news/images/news/upload/smm/2018/04/23/facebook_c835bf8b19c5d18911d1ae4985289bb1.jpg",
+            "twitter:image": "https://static.ura.news/images/news/images/news/upload/smm/2018/04/23/facebook_c835bf8b19c5d18911d1ae4985289bb1.jpg",
+            "og:image:width": "1200",
+            "og:image:height": "630",
+            "mediator_author": "Наталья Михалева",
+            "mediator_theme": "Москва",
+            "mediator": "articles_1036274640",
+            "mediator_published_time": "2018-04-21T23:23:00+0500",
+            "theme-color": "#0037a1",
+            "msapplication-config": "browserconfig.xml"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://s.ura.news/images/news/upload/articles/274/640/1036274640/263589_Pugacheva_Alla_Galkin_Maksim_Ernst_Konstantin_maslo_slivochnoe_tramp_donalyd_760x0_4104.2736.0.0.jpg"
+          }
+        ]
+      },
+      "snippet": "21 апр 2018 ... ... звонке российского президента Владимира Путина. Только на URA. ... \nПолитологи сходятся во мнении, что «старый дурак, теряющий ...",
+      "title": "Трамп — это «дурак, теряющий нить разговора», или хитрый ..."
+    },
+    {
+      "cacheId": "dP6UrH4QJK4J",
+      "displayLink": "plus.google.com",
+      "formattedUrl": "https://plus.google.com/118232427817152502473/.../KpQBRqY2hnt",
+      "htmlFormattedUrl": "https://plus.google.com/118232427817152502473/.../KpQBRqY2hnt",
+      "htmlSnippet": "14 дек 2013 \u003cb\u003e...\u003c/b\u003e Апологеты \u003cb\u003eПутина\u003c/b\u003e, «партии власти», «Единой России», с пеной у рта \u003cbr\u003e\nдоказывают, что «\u003cb\u003eПутин\u003c/b\u003e не причём, просто он очень доверчивый и \u003cbr\u003e\nобнаглевшее окружение его об... ... Дядя \u003cb\u003eпутин\u003c/b\u003e, ты \u003cb\u003eдурак\u003c/b\u003e или предатель?",
+      "htmlTitle": "Ядерный щит России сгинет к 2015 году. Просрали страну ...",
+      "kind": "customsearch#result",
+      "link": "https://plus.google.com/118232427817152502473/posts/KpQBRqY2hnt",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "width": "300",
+            "height": "168",
+            "src": "https://encrypted-tbn3.gstatic.com/images?q\u003dtbn:ANd9GcR6KPb30SmmW_H551i1IRq4dHgBgKjtcK342kXKxymQlET6TRBbIQOuf1E"
+          }
+        ],
+        "metatags": [
+          {
+            "title": "Ядерный щит России сгинет к 2015 году. Просрали страну окончательно!",
+            "theme-color": "#ff0000",
+            "og:site_name": "YouTube",
+            "og:url": "https://www.youtube.com/watch?v\u003dBXp5o-G7jjI",
+            "og:title": "Ядерный щит России сгинет к 2015 году. Просрали страну окончательно!",
+            "og:image": "https://i.ytimg.com/vi/BXp5o-G7jjI/maxresdefault.jpg",
+            "og:description": "Апологеты Путина, «партии власти», «Единой России», с пеной у рта доказывают, что «Путин не причём, просто он очень доверчивый и обнаглевшее окружение его об...",
+            "al:ios:app_store_id": "544007664",
+            "al:ios:app_name": "YouTube",
+            "al:ios:url": "vnd.youtube://www.youtube.com/watch?v\u003dBXp5o-G7jjI\u0026feature\u003dapplinks",
+            "al:android:url": "vnd.youtube://www.youtube.com/watch?v\u003dBXp5o-G7jjI\u0026feature\u003dapplinks",
+            "al:android:app_name": "YouTube",
+            "al:android:package": "com.google.android.youtube",
+            "al:web:url": "https://www.youtube.com/watch?v\u003dBXp5o-G7jjI\u0026feature\u003dapplinks",
+            "og:type": "video.other",
+            "og:video:url": "https://www.youtube.com/embed/BXp5o-G7jjI",
+            "og:video:secure_url": "https://www.youtube.com/embed/BXp5o-G7jjI",
+            "og:video:type": "text/html",
+            "og:video:width": "1280",
+            "og:video:height": "720",
+            "og:video:tag": "армия"
+          }
+        ],
+        "videoobject": [
+          {
+            "url": "https://www.youtube.com/watch?v\u003dBXp5o-G7jjI",
+            "name": "Ядерный щит России сгинет к 2015 году. Просрали страну окончательно!",
+            "description": "Апологеты Путина, «партии власти», «Единой России», с пеной у рта доказывают, что «Путин не причём, просто...",
+            "paid": "False",
+            "channelid": "UCovPSdfxejME6lJWUzLb-cw",
+            "videoid": "BXp5o-G7jjI",
+            "duration": "PT24M43S",
+            "unlisted": "False",
+            "thumbnailurl": "https://i.ytimg.com/vi/BXp5o-G7jjI/maxresdefault.jpg",
+            "embedurl": "https://www.youtube.com/embed/BXp5o-G7jjI",
+            "playertype": "HTML5 Flash",
+            "width": "1280",
+            "height": "720",
+            "isfamilyfriendly": "True",
+            "regionsallowed": "AD,AE,AF,AG,AI,AL,AM,AO,AQ,AR,AS,AT,AU,AW,AX,AZ,BA,BB,BD,BE,BF,BG,BH,BI,BJ,BL,BM,BN,BO,BQ,BR,BS,BT,BV,BW,BY,BZ,CA,CC,CD,CF,CG,CH,CI,CK,CL,CM,CN,CO,CR,CU,CV,CW,CX,CY,CZ,DE,DJ,DK,DM,DO,DZ,EC,EE,EG,EH...",
+            "interactioncount": "104817",
+            "datepublished": "2013-12-14",
+            "genre": "News \u0026 Politics"
+          }
+        ],
+        "imageobject": [
+          {
+            "url": "https://i.ytimg.com/vi/BXp5o-G7jjI/maxresdefault.jpg",
+            "width": "1280",
+            "height": "720"
+          }
+        ],
+        "person": [
+          {
+            "url": "http://www.youtube.com/user/Andrey36982"
+          },
+          {
+            "url": "https://plus.google.com/118433957740323688455"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://i.ytimg.com/vi/BXp5o-G7jjI/maxresdefault.jpg"
+          }
+        ]
+      },
+      "snippet": "14 дек 2013 ... Апологеты Путина, «партии власти», «Единой России», с пеной у рта \nдоказывают, что «Путин не причём, просто он очень доверчивый и \nобнаглевшее окружение его об... ... Дядя путин, ты дурак или предатель?",
+      "title": "Ядерный щит России сгинет к 2015 году. Просрали страну ..."
+    },
+    {
+      "cacheId": "G_9lcyAeBB0J",
+      "displayLink": "feedproxy.google.com",
+      "formattedUrl": "feedproxy.google.com/~r/euronews/ru/home/~3/.../russia-putin-tv",
+      "htmlFormattedUrl": "feedproxy.google.com/~r/euronews/ru/home/~3/.../russia-putin-tv",
+      "htmlSnippet": "3 сен 2018 \u003cb\u003e...\u003c/b\u003e Песков подробно рассказал о том, как \u003cb\u003eПутин\u003c/b\u003e принимал решение обратиться \u003cbr\u003e\nк россиянам с предложением ... \u0026quot;Медведь, что, \u003cb\u003eдурак\u003c/b\u003e?",
+      "htmlTitle": "На \u0026quot;России-1\u0026quot; вышла еженедельная авторская программа о ...",
+      "kind": "customsearch#result",
+      "link": "http://feedproxy.google.com/~r/euronews/ru/home/~3/WiF1Yx1ALt0/russia-putin-tv",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "width": "299",
+            "height": "168",
+            "src": "https://encrypted-tbn3.gstatic.com/images?q\u003dtbn:ANd9GcTXtYjCKREicHMMGEn5XfkLwHY2zzWFkoAQfKdfESU3OMNHTIXCXPkhHqA"
+          }
+        ],
+        "metatags": [
+          {
+            "date.created": "2018-09-03 19:14:00",
+            "date.available": "2018-09-03 19:14:00",
+            "date.updated": "2018-09-03 19:14:45",
+            "date.modified": "2018-09-03 19:14:45",
+            "article:theme": "news",
+            "program.url": "web-digital-stories",
+            "news_keywords": "Владимир Путин,СМИ,Политика",
+            "og:locale": "ru",
+            "og:page_id": "191185974309157",
+            "og:pages": "191185974309157",
+            "og:site_name": "euronews",
+            "og:title": "На \"России-1\" вышла еженедельная авторская программа о Путине",
+            "og:description": "2 сентября в эфире телеканала \"Россия-1\" вышла новая авторская программа Владимира Соловьева \"Москва. Кремль. Путин\".   \nВ течение часа ведущий и гости передачи хвалили президента за лидерские качества, энергичность, заботу и внимание к нуждам россиян.",
+            "og:type": "article",
+            "og:article:publisher": "euronews",
+            "og:image:width": "1000",
+            "og:image:height": "563",
+            "og:image:type": "image/jpeg",
+            "og:image": "https://static.euronews.com/articles/stories/03/29/99/18/1000x563_cmsv2_980f47fa-0217-5880-9e55-69366b44d240-3299918.jpg",
+            "article:published_time": "2018-09-03 19:14:00",
+            "article:modified_time": "2018-09-03 19:14:45",
+            "article:section": "news_news",
+            "article:author": "Наира Давлашян",
+            "twitter:site": "@euronews",
+            "twitter:title": "На \"России-1\" вышла еженедельная авторская программа о Путине",
+            "twitter:description": "2 сентября в эфире телеканала \"Россия-1\" вышла новая авторская программа Владимира Соловьева \"Москва. Кремль. Путин\".   \nВ течение часа ведущий и гости передачи хвалили президента за лидерские качества, энергичность, заботу и внимание к нуждам россиян.",
+            "twitter:image": "https://static.euronews.com/articles/stories/03/29/99/18/1000x563_cmsv2_980f47fa-0217-5880-9e55-69366b44d240-3299918.jpg",
+            "twitter:image:alt": "На \"России-1\" вышла еженедельная авторская программа о Путине",
+            "twitter:card": "summary_large_image",
+            "fb:pages": "191185974309157",
+            "sponsored": "no",
+            "msapplication-tilecolor": "#003865",
+            "msapplication-tileimage": "/mstile-144x144.png",
+            "theme-color": "#ffffff",
+            "apple-mobile-web-app-capable": "no",
+            "apple-mobile-web-app-title": "Euronews.com",
+            "application-name": "Euronews.com",
+            "msapplication-config": "browserconfig.xml",
+            "msapplication-tooltip": "Euronews.com",
+            "msapplication-window": "width\u003d1280;height\u003d1024",
+            "msapplication-navbutton-color": "#003865",
+            "msapplication-starturl": "./",
+            "msapplication-square70x70logo": "/mstile-small.jpg",
+            "msapplication-square150x150logo": "/mstile-medium.jpg",
+            "msapplication-wide310x150logo": "/mstile-wide.jpg",
+            "msapplication-square310x310logo": "/mstile-large.jpg",
+            "viewport": "width\u003ddevice-width, minimum-scale\u003d1, initial-scale\u003d1",
+            "mobile-web-app-capable": "no",
+            "yandex-verification": "a717c2973670e35c",
+            "mrf-extractable": "false"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://static.euronews.com/articles/stories/03/29/99/18/1000x563_cmsv2_980f47fa-0217-5880-9e55-69366b44d240-3299918.jpg"
+          }
+        ]
+      },
+      "snippet": "3 сен 2018 ... Песков подробно рассказал о том, как Путин принимал решение обратиться \nк россиянам с предложением ... \"Медведь, что, дурак?",
+      "title": "На \"России-1\" вышла еженедельная авторская программа о ..."
+    },
+    {
+      "cacheId": "e8RtzTi9IzYJ",
+      "displayLink": "plus.google.com",
+      "formattedUrl": "https://plus.google.com/+AnatolySverkanov/posts/dT2Ktfwf6Pa",
+      "htmlFormattedUrl": "https://plus.google.com/+AnatolySverkanov/posts/dT2Ktfwf6Pa",
+      "htmlSnippet": "13 июн 2015 \u003cb\u003e...\u003c/b\u003e Черная метка для \u003cb\u003eПутина\u003c/b\u003e. Апеннинский провал Кремля (В ФОКУСЕ .... \u003cb\u003eпутин\u003c/b\u003e \u003cbr\u003e\nили \u003cb\u003eдурак\u003c/b\u003e, или такой хитрый, что сам себя наёбует))﻿.",
+      "htmlTitle": "Черная метка для \u003cb\u003eПутина\u003c/b\u003e. Апеннинский провал Кремля (В ...",
+      "kind": "customsearch#result",
+      "link": "https://plus.google.com/+AnatolySverkanov/posts/dT2Ktfwf6Pa",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "width": "259",
+            "height": "194",
+            "src": "https://encrypted-tbn3.gstatic.com/images?q\u003dtbn:ANd9GcRdzIproWBoawZK25dHa2bMnq8ObXTebiBDIN7h-ThqsWZarz9UtzLdpYLF"
+          }
+        ],
+        "metatags": [
+          {
+            "title": "Черная метка для Путина. Апеннинский провал Кремля (В ФОКУСЕ OmTV-7)",
+            "theme-color": "#ff0000",
+            "og:site_name": "YouTube",
+            "og:url": "https://www.youtube.com/watch?v\u003duhwICriZcV8",
+            "og:title": "Черная метка для Путина. Апеннинский провал Кремля (В ФОКУСЕ OmTV-7)",
+            "og:image": "https://i.ytimg.com/vi/uhwICriZcV8/hqdefault.jpg",
+            "og:description": "В соц.сетях мы - \"OmTV\". Канал существует только благодаря вниманию и поддержке наших зрителей. О ВИДЕО. Кремлевская власть напрочь отказывается прекращать в...",
+            "al:ios:app_store_id": "544007664",
+            "al:ios:app_name": "YouTube",
+            "al:ios:url": "vnd.youtube://www.youtube.com/watch?v\u003duhwICriZcV8\u0026feature\u003dapplinks",
+            "al:android:url": "vnd.youtube://www.youtube.com/watch?v\u003duhwICriZcV8\u0026feature\u003dapplinks",
+            "al:android:app_name": "YouTube",
+            "al:android:package": "com.google.android.youtube",
+            "al:web:url": "https://www.youtube.com/watch?v\u003duhwICriZcV8\u0026feature\u003dapplinks",
+            "og:type": "video.other",
+            "og:video:url": "https://www.youtube.com/embed/uhwICriZcV8",
+            "og:video:secure_url": "https://www.youtube.com/embed/uhwICriZcV8",
+            "og:video:type": "text/html",
+            "og:video:width": "1280",
+            "og:video:height": "720",
+            "og:video:tag": "Украина"
+          }
+        ],
+        "videoobject": [
+          {
+            "url": "https://www.youtube.com/watch?v\u003duhwICriZcV8",
+            "name": "Черная метка для Путина. Апеннинский провал Кремля (В ФОКУСЕ OmTV-7)",
+            "description": "В соц.сетях мы - \"OmTV\". Канал существует только благодаря вниманию и поддержке наших зрителей. О ВИДЕО. Кремлев...",
+            "paid": "False",
+            "channelid": "UCkp0Tc7ll67bChomTyB1ezQ",
+            "videoid": "uhwICriZcV8",
+            "duration": "PT6M1S",
+            "unlisted": "False",
+            "thumbnailurl": "https://i.ytimg.com/vi/uhwICriZcV8/hqdefault.jpg",
+            "embedurl": "https://www.youtube.com/embed/uhwICriZcV8",
+            "playertype": "HTML5 Flash",
+            "width": "1280",
+            "height": "720",
+            "isfamilyfriendly": "True",
+            "regionsallowed": "AD,AE,AF,AG,AI,AL,AM,AO,AQ,AR,AS,AT,AU,AW,AX,AZ,BA,BB,BD,BE,BF,BG,BH,BI,BJ,BL,BM,BN,BO,BQ,BR,BS,BT,BV,BW,BY,BZ,CA,CC,CD,CF,CG,CH,CI,CK,CL,CM,CN,CO,CR,CU,CV,CW,CX,CY,CZ,DE,DJ,DK,DM,DO,DZ,EC,EE,EG,EH...",
+            "interactioncount": "160691",
+            "datepublished": "2015-06-13",
+            "genre": "People \u0026 Blogs"
+          }
+        ],
+        "imageobject": [
+          {
+            "url": "https://i.ytimg.com/vi/uhwICriZcV8/hqdefault.jpg",
+            "width": "480",
+            "height": "360"
+          }
+        ],
+        "person": [
+          {
+            "url": "http://www.youtube.com/user/OmelchukTV"
+          },
+          {
+            "url": "https://plus.google.com/108971029556301370622"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://i.ytimg.com/vi/uhwICriZcV8/hqdefault.jpg"
+          }
+        ]
+      },
+      "snippet": "13 июн 2015 ... Черная метка для Путина. Апеннинский провал Кремля (В ФОКУСЕ .... путин \nили дурак, или такой хитрый, что сам себя наёбует))﻿.",
+      "title": "Черная метка для Путина. Апеннинский провал Кремля (В ..."
+    }
+  ],
+  "kind": "customsearch#search",
+  "queries": {
+    "request": [
+      {
+        "count": 10,
+        "cx": "003159383193150926956:c6m9ah2oy8e",
+        "inputEncoding": "utf8",
+        "outputEncoding": "utf8",
+        "safe": "off",
+        "searchTerms": "путин дурак",
+        "startIndex": 1,
+        "title": "Google Custom Search - путин дурак",
+        "totalResults": 3690
+      }
+    ],
+    "nextPage": [
+      {
+        "count": 10,
+        "cx": "003159383193150926956:c6m9ah2oy8e",
+        "inputEncoding": "utf8",
+        "outputEncoding": "utf8",
+        "safe": "off",
+        "searchTerms": "путин дурак",
+        "startIndex": 11,
+        "title": "Google Custom Search - путин дурак",
+        "totalResults": 3690
+      }
+    ]
+  },
+  "searchInformation": {
+    "formattedSearchTime": "0.42",
+    "formattedTotalResults": "3,690",
+    "searchTime": 0.424482,
+    "totalResults": 3690
+  },
+  "url": {
+    "template": "https://www.googleapis.com/customsearch/v1?q\u003d{searchTerms}\u0026num\u003d{count?}\u0026start\u003d{startIndex?}\u0026lr\u003d{language?}\u0026safe\u003d{safe?}\u0026cx\u003d{cx?}\u0026sort\u003d{sort?}\u0026filter\u003d{filter?}\u0026gl\u003d{gl?}\u0026cr\u003d{cr?}\u0026googlehost\u003d{googleHost?}\u0026c2coff\u003d{disableCnTwTranslation?}\u0026hq\u003d{hq?}\u0026hl\u003d{hl?}\u0026siteSearch\u003d{siteSearch?}\u0026siteSearchFilter\u003d{siteSearchFilter?}\u0026exactTerms\u003d{exactTerms?}\u0026excludeTerms\u003d{excludeTerms?}\u0026linkSite\u003d{linkSite?}\u0026orTerms\u003d{orTerms?}\u0026relatedSite\u003d{relatedSite?}\u0026dateRestrict\u003d{dateRestrict?}\u0026lowRange\u003d{lowRange?}\u0026highRange\u003d{highRange?}\u0026searchType\u003d{searchType}\u0026fileType\u003d{fileType?}\u0026rights\u003d{rights?}\u0026imgSize\u003d{imgSize?}\u0026imgType\u003d{imgType?}\u0026imgColorType\u003d{imgColorType?}\u0026imgDominantColor\u003d{imgDominantColor?}\u0026alt\u003djson",
+    "type": "application/json"
+  }
+}
