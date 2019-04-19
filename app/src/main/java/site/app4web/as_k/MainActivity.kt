@@ -12,6 +12,8 @@ import android.widget.*
 import java.util.concurrent.TimeUnit
 import java.util.concurrent.TimeoutException
 import android.widget.SimpleAdapter
+import com.google.api.services.customsearch.model.Result
+import com.google.gson.Gson
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
@@ -59,18 +61,19 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
-    fun Lv(result:ArrayList<HashMap<String, String>>?): String? {
+    fun Lv(result:MutableList<Result>?): String? {
         if (result == null) return null   // Вывод результата
             listView.adapter = SimpleAdapter(
                 this, result, android.R.layout.simple_list_item_2,
-                arrayOf("Http", "Title"),
+                arrayOf("link", "title"),
                 intArrayOf(android.R.id.text1, android.R.id.text2)
             )
             // добвляем для списка слушатель
                 listView.setOnItemClickListener { _, _, position, _ ->
                     Toast.makeText(applicationContext, "выбран $position "  , Toast.LENGTH_SHORT).show()
-                    startActivity(Intent(Intent.ACTION_VIEW, Uri.parse(result[position]["Http"])))
+                    startActivity(Intent(Intent.ACTION_VIEW, Uri.parse(result[position].link)))
                   }
+
         return null
     }
 

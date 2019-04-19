@@ -4,14 +4,15 @@ import android.util.Log
 
 import com.fasterxml.jackson.core.JsonProcessingException
 import com.fasterxml.jackson.databind.ObjectMapper
-import com.google.api.services.customsearch.model.Search
-import com.google.gson.Gson
+
+import com.google.api.services.customsearch.model.Result
+
+
 import com.google.gson.GsonBuilder
-//import org.json.simple.JSONValue;
-//import org.json.JSONObject;
+import com.google.gson.Gson
 
 
-import java.util.HashMap
+
 
 /**
  * @author Crunchify.com
@@ -26,11 +27,12 @@ import java.util.HashMap
  * 4 нет implementation 'com.googlecode.json-simple:json-simple:1.1.1'
  */
 
-class CrunchifyMapToJsonObject(result: Search) {
-    init {
+fun  CrunchifyMapToJsonObject(resitem: MutableList<Result>?): Gson {
 
-        val crunchifyMap=result
-        val resultMap = result.items
+
+        val crunchifyMap=resitem
+      //  val resultMap: MutableList<Result>?
+      //  resultMap = result.items
 
         log("Raw Map ===> $crunchifyMap")
 
@@ -66,6 +68,8 @@ class CrunchifyMapToJsonObject(result: Search) {
 //        log("\nMethod-4: Using JSONValue.toJSONString() ==> $jsonValue")
             log("\nMethod-4: Using JSONValue.toJSONString() ==> STOP")
 
+            return prettyGson
+
     }
 
     private fun log(print: Any) {
@@ -73,4 +77,3 @@ class CrunchifyMapToJsonObject(result: Search) {
         Log.d("Json", "" + print)
 
     }
-}
